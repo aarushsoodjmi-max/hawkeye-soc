@@ -1,0 +1,1001 @@
+timestamp,user,device,ip_address,alert_type,severity,source,root_cause,incident_id
+2026-08-31 06:58:10,carlos.f,SRV-DB-249,10.17.45.9,malware_detected,medium,EDR,benign,BENIGN-00684
+2026-08-20 20:38:18,elizabeth.h,SRV-WEB-609,10.27.53.42,privilege_escalation,medium,AD,benign,BENIGN-00561
+2026-08-14 05:15:04,james.r,WIN10-454,10.25.19.93,privilege_escalation,high,AD,phishing,INC-S-00168
+2026-08-24 04:34:32,james.r,MACOS-686,10.1.61.108,login_anomaly,low,AD,phishing,INC-S-00060
+2026-08-09 06:51:39,wei.r,LNX-APP-191,10.15.93.99,login_anomaly,low,AD,benign,BENIGN-00058
+2026-08-19 03:53:46,richard.i,LNX-APP-191,10.2.113.242,powershell_exec,high,EDR,phishing,INC-0029
+2026-08-28 02:30:33,john.m,LNX-APP-485,10.27.40.71,powershell_exec,low,EDR,benign,BENIGN-00692
+2026-08-17 05:08:57,linda.b,LNX-APP-946,10.3.197.207,malware_detected,low,EDR,benign,BENIGN-00527
+2026-08-15 23:10:37,carlos.r,LNX-APP-544,10.19.237.38,powershell_exec,low,EDR,benign,BENIGN-00311
+2026-08-14 05:11:23,david.d,SRV-DB-272,78.187.60.170,outbound_connection,high,Firewall,benign,BENIGN-00258
+2026-08-25 03:16:53,michael.e,SRV-DB-714,10.0.91.21,data_access,low,SIEM,benign,BENIGN-00326
+2026-08-31 13:35:40,ahmed.c,WIN10-610,118.144.165.153,powershell_exec,low,EDR,benign,BENIGN-00123
+2026-08-27 04:33:34,jennifer.l,SRV-DB-515,10.11.242.241,powershell_exec,high,EDR,malware,INC-S-00084
+2026-08-31 22:16:29,yusuf.z,WIN11-286,10.10.41.101,privilege_escalation,critical,AD,malware,INC-S-00099
+2026-08-23 19:05:53,priya.x,WIN10-766,10.24.127.161,data_access,medium,SIEM,compromised_account,INC-0024
+2026-08-22 13:30:02,linda.e,SRV-FILE-556,10.16.196.107,outbound_connection,medium,Firewall,benign,BENIGN-00050
+2026-08-25 08:28:40,carlos.q,LNX-APP-191,10.30.13.65,credential_dump,high,EDR,malware,INC-0019
+2026-08-06 18:15:09,elena.m,SRV-FILE-958,10.3.83.59,outbound_connection,low,Proxy,benign,BENIGN-00435
+2026-08-23 20:02:21,elena.r,SRV-WEB-083,10.20.20.237,privilege_escalation,critical,EDR,malware,INC-S-00138
+2026-08-29 10:50:42,mary.h,SRV-WEB-460,10.5.233.86,outbound_connection,high,Firewall,benign,BENIGN-00337
+2026-08-31 15:16:01,carlos.i,WIN10-692,10.30.216.111,login_anomaly,high,SIEM,benign,BENIGN-00401
+2026-08-02 20:42:08,wei.r,WIN10-599,10.3.251.128,powershell_exec,low,EDR,benign,BENIGN-00159
+2026-08-14 20:02:34,elena.r,WIN11-059,10.11.13.165,privilege_escalation,medium,EDR,benign,BENIGN-00398
+2026-08-10 07:02:01,thomas.t,WIN11-195,10.3.6.53,malware_detected,medium,EDR,benign,BENIGN-00100
+2026-08-11 09:20:44,karen.c,WIN10-692,10.14.238.83,powershell_exec,high,EDR,phishing,INC-0026
+2026-08-05 19:30:43,thomas.p,SRV-DB-363,10.21.207.137,phishing_email,critical,Email Gateway,benign,BENIGN-00368
+2026-08-16 08:05:52,sofia.b,MACOS-059,10.10.203.15,privilege_escalation,high,AD,compromised_account,INC-0028
+2026-08-04 10:54:19,elena.a,SRV-DB-363,10.7.8.117,privilege_escalation,high,EDR,benign,BENIGN-00116
+2026-08-06 00:10:18,joseph.q,SRV-FILE-598,10.4.33.87,data_access,medium,DLP,benign,BENIGN-00305
+2026-08-23 16:08:28,elena.r,LNX-APP-804,10.3.152.9,privilege_escalation,high,EDR,compromised_account,INC-S-00131
+2026-08-11 17:47:46,fatima.d,SRV-FILE-348,10.2.125.251,login_anomaly,medium,AD,benign,BENIGN-00409
+2026-08-14 14:55:49,james.r,WIN10-949,10.25.78.44,credential_dump,low,EDR,benign,BENIGN-00458
+2026-08-24 12:13:52,jennifer.r,WIN10-052,10.25.127.96,data_access,medium,DLP,benign,BENIGN-00272
+2026-08-14 13:03:13,priya.i,LNX-APP-417,10.8.34.8,outbound_connection,medium,Proxy,benign,BENIGN-00524
+2026-08-30 21:25:44,linda.v,SRV-WEB-083,10.3.26.4,credential_dump,medium,EDR,benign,BENIGN-00651
+2026-08-16 00:16:57,sarah.d,WIN10-235,10.13.205.114,data_access,low,SIEM,benign,BENIGN-00470
+2026-08-02 07:06:48,fatima.h,SRV-FILE-670,10.29.86.90,privilege_escalation,high,EDR,compromised_account,INC-S-00026
+2026-08-08 10:56:38,john.c,LNX-APP-883,10.21.223.139,outbound_connection,high,Firewall,insider,INC-S-00128
+2026-08-09 05:51:02,karen.k,SRV-DB-421,10.6.28.204,data_access,medium,SIEM,benign,BENIGN-00431
+2026-08-19 02:59:57,john.m,SRV-FILE-348,10.12.157.174,login_anomaly,medium,SIEM,benign,BENIGN-00508
+2026-08-03 21:28:50,michael.h,MACOS-059,10.28.157.154,privilege_escalation,high,EDR,benign,BENIGN-00219
+2026-08-16 19:08:21,jennifer.w,SRV-DB-293,10.19.167.7,phishing_email,low,Email Gateway,benign,BENIGN-00309
+2026-08-31 19:24:12,jessica.a,WIN10-603,10.7.217.247,outbound_connection,medium,Firewall,benign,BENIGN-00205
+2026-08-16 22:55:05,william.e,SRV-DB-124,10.22.13.108,privilege_escalation,low,AD,benign,BENIGN-00338
+2026-08-31 10:42:00,jennifer.z,WIN10-603,10.25.175.78,powershell_exec,low,EDR,benign,BENIGN-00191
+2026-08-29 20:25:24,mary.h,SRV-DB-256,10.11.55.229,powershell_exec,low,EDR,benign,BENIGN-00240
+2026-08-04 21:02:55,elena.m,MACOS-073,10.21.131.152,login_anomaly,medium,SIEM,benign,BENIGN-00487
+2026-08-24 10:19:54,linda.v,SRV-DB-256,10.10.143.110,data_access,low,SIEM,benign,BENIGN-00015
+2026-08-12 08:25:58,carlos.u,WIN11-059,10.10.214.247,phishing_email,medium,Email Gateway,benign,BENIGN-00424
+2026-08-27 19:42:48,karen.u,WIN10-603,10.3.120.182,credential_dump,medium,EDR,benign,BENIGN-00452
+2026-08-05 19:30:54,patricia.v,SRV-FILE-348,10.17.2.29,login_anomaly,low,AD,compromised_account,INC-0003
+2026-08-25 21:48:32,michael.w,WIN10-949,10.23.161.128,privilege_escalation,high,EDR,benign,BENIGN-00348
+2026-08-24 10:27:49,john.s,WIN10-255,10.6.129.12,phishing_email,low,Email Gateway,benign,BENIGN-00694
+2026-08-12 06:51:08,karen.c,WIN10-430,10.6.189.138,malware_detected,low,EDR,benign,BENIGN-00312
+2026-08-31 17:32:44,yusuf.x,WIN11-097,10.3.202.217,data_access,low,DLP,benign,BENIGN-00426
+2026-08-27 18:04:32,jennifer.o,SRV-WEB-244,10.30.192.159,phishing_email,medium,Email Gateway,benign,BENIGN-00182
+2026-08-10 21:15:43,richard.l,SRV-DB-123,10.7.78.30,powershell_exec,low,EDR,benign,BENIGN-00020
+2026-08-23 00:39:48,carlos.u,LNX-APP-485,45.44.236.147,phishing_email,high,Email Gateway,benign,BENIGN-00075
+2026-08-09 14:07:07,fatima.u,LNX-APP-946,10.4.44.52,data_access,medium,DLP,benign,BENIGN-00584
+2026-08-29 01:18:57,wei.v,SRV-WEB-591,10.30.216.206,powershell_exec,high,EDR,malware,INC-S-00004
+2026-08-21 21:43:35,sarah.d,WIN10-766,10.7.38.2,data_access,low,SIEM,benign,BENIGN-00063
+2026-08-16 14:06:52,sofia.b,MACOS-059,10.10.203.15,data_access,medium,SIEM,compromised_account,INC-0028
+2026-08-02 12:19:26,linda.v,SRV-WEB-136,10.5.80.141,data_access,medium,DLP,benign,BENIGN-00403
+2026-08-08 23:46:01,william.e,SRV-DB-003,10.2.165.5,malware_detected,medium,EDR,benign,BENIGN-00384
+2026-08-24 22:26:58,wei.g,SRV-WEB-083,10.4.9.74,phishing_email,low,Email Gateway,phishing,INC-S-00058
+2026-08-13 21:09:16,carlos.u,SRV-FILE-556,10.15.232.177,credential_dump,low,EDR,benign,BENIGN-00475
+2026-08-19 12:40:14,karen.u,SRV-FILE-803,10.16.241.15,data_access,low,SIEM,benign,BENIGN-00468
+2026-08-09 13:02:16,yusuf.w,WIN10-430,10.20.34.124,credential_dump,medium,EDR,benign,BENIGN-00353
+2026-08-19 02:18:52,sarah.a,WIN10-594,10.14.43.188,privilege_escalation,high,EDR,phishing,INC-S-00146
+2026-08-16 19:09:36,james.c,SRV-DB-885,10.2.4.123,phishing_email,low,Email Gateway,benign,BENIGN-00444
+2026-08-28 05:39:27,carlos.e,WIN10-603,10.30.36.96,credential_dump,critical,EDR,benign,BENIGN-00627
+2026-08-20 23:32:20,john.m,LNX-APP-411,10.17.56.35,outbound_connection,medium,Proxy,benign,BENIGN-00192
+2026-08-13 14:12:22,sarah.d,SRV-DB-272,203.220.93.199,outbound_connection,low,Firewall,benign,BENIGN-00285
+2026-08-23 12:38:04,yusuf.w,LNX-APP-870,10.2.50.232,malware_detected,high,EDR,benign,BENIGN-00074
+2026-08-21 10:33:27,wei.j,MACOS-073,10.7.111.151,credential_dump,high,EDR,compromised_account,INC-S-00036
+2026-08-13 04:55:35,sofia.k,WIN10-347,10.8.125.128,privilege_escalation,medium,EDR,benign,BENIGN-00501
+2026-08-05 14:45:44,susan.b,SRV-DB-293,10.5.251.175,data_access,low,DLP,benign,BENIGN-00177
+2026-08-15 06:27:03,yusuf.z,WIN11-171,10.2.1.105,powershell_exec,low,EDR,benign,BENIGN-00472
+2026-08-17 04:05:17,karen.l,LNX-APP-870,10.17.204.149,data_access,medium,SIEM,benign,BENIGN-00390
+2026-08-29 16:35:11,yusuf.r,SRV-DB-293,10.11.173.243,privilege_escalation,critical,AD,phishing,INC-S-00053
+2026-08-24 16:14:56,elizabeth.c,SRV-DB-272,10.8.41.181,login_anomaly,low,SIEM,benign,BENIGN-00553
+2026-08-25 21:59:45,charles.i,MACOS-073,10.2.173.245,phishing_email,medium,Email Gateway,benign,BENIGN-00242
+2026-08-14 01:53:58,sofia.a,WIN10-675,10.21.1.161,phishing_email,low,Email Gateway,benign,BENIGN-00136
+2026-08-27 03:42:44,linda.y,WIN11-097,10.4.3.36,powershell_exec,low,EDR,benign,BENIGN-00481
+2026-08-18 21:11:46,richard.i,LNX-APP-191,10.21.139.41,phishing_email,medium,Email Gateway,phishing,INC-0029
+2026-08-12 13:44:29,patricia.v,SRV-FILE-647,10.28.13.222,credential_dump,critical,EDR,benign,BENIGN-00277
+2026-08-26 23:59:42,wei.v,SRV-WEB-226,10.4.194.95,outbound_connection,medium,Proxy,phishing,INC-S-00090
+2026-08-25 07:19:40,carlos.q,LNX-APP-191,10.30.13.65,powershell_exec,medium,EDR,malware,INC-0019
+2026-08-05 02:39:31,thomas.t,SRV-DB-124,10.19.111.23,powershell_exec,low,EDR,benign,BENIGN-00229
+2026-08-07 15:17:23,john.s,MACOS-223,45.78.254.127,outbound_connection,medium,Firewall,phishing,INC-S-00007
+2026-08-03 21:43:52,thomas.t,LNX-APP-485,91.133.137.102,credential_dump,medium,EDR,benign,BENIGN-00331
+2026-08-27 22:28:55,joseph.q,WIN10-594,10.14.235.33,data_access,high,DLP,insider,INC-0012
+2026-08-29 11:01:51,susan.g,SRV-WEB-236,10.25.124.89,outbound_connection,medium,Proxy,benign,BENIGN-00079
+2026-08-25 09:01:34,arjun.l,WIN10-949,10.11.28.149,login_anomaly,critical,AD,benign,BENIGN-00388
+2026-08-13 10:43:57,mei.h,SRV-DB-714,10.23.69.206,privilege_escalation,medium,AD,benign,BENIGN-00249
+2026-08-12 23:37:37,david.y,SRV-WEB-536,10.4.41.50,phishing_email,low,Email Gateway,benign,BENIGN-00327
+2026-08-23 12:12:23,ahmed.l,SRV-FILE-101,10.27.199.221,login_anomaly,high,SIEM,benign,BENIGN-00176
+2026-08-05 13:05:07,arjun.c,SRV-WEB-591,45.191.55.149,outbound_connection,medium,Proxy,phishing,INC-S-00125
+2026-08-27 02:46:04,jennifer.i,LNX-APP-870,10.14.119.175,privilege_escalation,critical,EDR,compromised_account,INC-S-00082
+2026-08-26 15:30:03,carlos.b,SRV-FILE-598,10.27.201.26,powershell_exec,medium,EDR,malware,INC-S-00050
+2026-08-30 01:58:16,karen.l,SRV-FILE-348,10.30.167.201,data_access,medium,DLP,compromised_account,INC-S-00101
+2026-08-29 15:59:06,mei.p,SRV-DB-003,10.4.66.239,powershell_exec,high,EDR,benign,BENIGN-00639
+2026-08-19 22:25:22,arjun.p,SRV-DB-515,10.7.16.68,phishing_email,low,Email Gateway,benign,BENIGN-00207
+2026-08-31 11:11:33,karen.l,SRV-FILE-554,10.5.214.5,privilege_escalation,low,AD,benign,BENIGN-00697
+2026-08-03 22:00:25,arjun.c,SRV-WEB-460,10.4.64.231,data_access,medium,SIEM,benign,BENIGN-00282
+2026-08-16 00:59:59,yusuf.s,WIN10-928,10.0.208.119,outbound_connection,medium,Firewall,benign,BENIGN-00628
+2026-08-30 12:28:38,joseph.q,WIN10-430,10.18.240.80,malware_detected,low,EDR,benign,BENIGN-00688
+2026-08-29 15:26:03,karen.l,LNX-APP-241,203.63.51.76,credential_dump,high,EDR,benign,BENIGN-00577
+2026-08-28 04:18:55,karen.k,WIN10-766,185.114.34.249,credential_dump,low,EDR,benign,BENIGN-00262
+2026-08-16 21:46:47,priya.n,LNX-APP-946,10.7.190.224,phishing_email,low,Email Gateway,benign,BENIGN-00129
+2026-08-30 20:31:03,joseph.u,SRV-WEB-083,10.26.220.167,phishing_email,low,Email Gateway,benign,BENIGN-00002
+2026-08-14 09:42:02,karen.i,SRV-FILE-958,10.30.212.108,data_access,medium,SIEM,insider,INC-0013
+2026-08-13 22:17:45,jennifer.o,SRV-DB-714,10.12.145.214,powershell_exec,high,EDR,malware,INC-S-00145
+2026-08-20 22:12:12,linda.x,LNX-APP-883,10.19.39.22,outbound_connection,low,Firewall,benign,BENIGN-00260
+2026-08-03 06:37:22,elena.m,SRV-DB-123,10.7.202.127,malware_detected,critical,EDR,malware,INC-S-00080
+2026-08-25 12:06:01,fatima.h,LNX-APP-564,10.17.104.17,powershell_exec,low,EDR,benign,BENIGN-00625
+2026-08-16 05:34:00,linda.b,SRV-DB-219,185.244.160.6,privilege_escalation,low,EDR,benign,BENIGN-00455
+2026-08-10 04:34:35,charles.g,SRV-WEB-591,10.18.250.27,powershell_exec,low,EDR,benign,BENIGN-00498
+2026-08-06 07:08:40,mary.d,LNX-APP-485,172.189.71.166,phishing_email,high,Email Gateway,benign,BENIGN-00616
+2026-08-05 07:11:17,john.s,SRV-DB-123,10.26.161.60,login_anomaly,low,AD,compromised_account,INC-S-00148
+2026-08-11 20:05:37,linda.b,WIN11-195,10.7.16.206,powershell_exec,low,EDR,benign,BENIGN-00423
+2026-08-23 19:02:19,sarah.a,SRV-DB-885,10.19.72.193,outbound_connection,medium,Firewall,phishing,INC-S-00052
+2026-08-03 17:39:24,sofia.k,SRV-WEB-226,10.26.137.85,data_access,medium,SIEM,phishing,INC-0005
+2026-08-31 10:48:36,barbara.g,SRV-DB-220,172.119.52.88,outbound_connection,medium,Proxy,compromised_account,INC-S-00089
+2026-08-24 04:42:43,linda.b,SRV-FILE-670,61.242.100.130,outbound_connection,medium,Firewall,insider,INC-S-00093
+2026-08-16 18:04:52,sofia.b,MACOS-059,103.232.7.12,outbound_connection,medium,Proxy,compromised_account,INC-0028
+2026-08-20 00:07:51,elizabeth.u,WIN10-603,10.9.250.102,login_anomaly,low,AD,benign,BENIGN-00548
+2026-08-09 20:30:16,wei.r,MACOS-686,10.14.200.180,privilege_escalation,low,AD,benign,BENIGN-00227
+2026-08-19 14:45:23,richard.u,SRV-DB-885,10.12.79.164,login_anomaly,high,AD,benign,BENIGN-00531
+2026-08-29 09:46:50,susan.g,SRV-WEB-083,10.7.253.33,login_anomaly,low,AD,compromised_account,INC-S-00012
+2026-08-20 11:44:44,william.h,WIN10-073,10.16.27.7,malware_detected,low,EDR,benign,BENIGN-00172
+2026-08-07 12:47:00,david.g,WIN10-603,10.2.86.111,privilege_escalation,medium,EDR,benign,BENIGN-00586
+2026-08-15 22:25:51,wei.v,LNX-APP-804,10.27.105.69,phishing_email,medium,Email Gateway,benign,BENIGN-00522
+2026-08-10 04:36:52,yusuf.s,LNX-APP-946,91.68.179.219,data_access,low,SIEM,benign,BENIGN-00540
+2026-08-24 23:57:05,arjun.l,SRV-DB-123,10.22.85.206,login_anomaly,medium,AD,compromised_account,INC-S-00098
+2026-08-06 18:24:49,priya.i,WIN10-881,10.21.17.65,credential_dump,low,EDR,benign,BENIGN-00196
+2026-08-07 14:10:55,thomas.i,SRV-FILE-598,10.23.222.87,privilege_escalation,critical,EDR,phishing,INC-S-00003
+2026-08-31 18:14:31,elena.a,WIN10-675,10.24.141.40,outbound_connection,low,Proxy,benign,BENIGN-00286
+2026-08-08 08:23:11,linda.x,WIN11-433,61.31.36.226,privilege_escalation,medium,EDR,benign,BENIGN-00664
+2026-08-16 10:51:20,joseph.e,MACOS-073,10.20.192.64,data_access,high,DLP,benign,BENIGN-00027
+2026-08-03 01:47:02,elena.a,SRV-FILE-958,10.1.248.137,credential_dump,low,EDR,benign,BENIGN-00270
+2026-08-31 15:22:57,carlos.x,WIN10-430,10.24.94.43,powershell_exec,high,EDR,compromised_account,INC-0014
+2026-08-30 03:53:16,jennifer.o,SRV-DB-885,10.20.122.189,privilege_escalation,high,EDR,benign,BENIGN-00450
+2026-08-21 17:07:54,priya.i,SRV-FILE-647,10.15.62.207,privilege_escalation,critical,AD,insider,INC-S-00088
+2026-08-06 21:58:25,joseph.q,SRV-DB-249,10.13.40.14,login_anomaly,low,AD,benign,BENIGN-00097
+2026-08-03 14:33:10,fatima.d,SRV-DB-885,10.25.135.221,privilege_escalation,low,EDR,benign,BENIGN-00396
+2026-08-06 16:41:37,carlos.b,SRV-FILE-056,10.10.79.17,outbound_connection,low,Proxy,benign,BENIGN-00644
+2026-08-24 16:15:53,thomas.d,WIN10-635,10.14.34.206,login_anomaly,medium,SIEM,insider,INC-0009
+2026-08-14 20:00:14,karen.i,WIN10-692,10.10.139.91,login_anomaly,medium,AD,phishing,INC-S-00105
+2026-08-27 21:44:19,jennifer.w,SRV-DB-124,10.17.249.42,phishing_email,low,Email Gateway,benign,BENIGN-00462
+2026-08-24 14:13:33,carlos.f,WIN10-413,10.9.175.165,privilege_escalation,medium,EDR,benign,BENIGN-00369
+2026-08-03 14:59:24,sofia.k,SRV-FILE-554,10.26.137.85,privilege_escalation,critical,AD,phishing,INC-0005
+2026-08-12 09:35:24,wei.v,WIN11-171,203.16.156.246,outbound_connection,high,Proxy,insider,INC-0020
+2026-08-07 13:36:53,jennifer.r,SRV-WEB-609,141.10.2.65,outbound_connection,medium,Firewall,benign,BENIGN-00695
+2026-08-08 02:18:03,fatima.h,WIN10-881,61.64.195.143,login_anomaly,low,SIEM,benign,BENIGN-00626
+2026-08-20 22:43:59,arjun.c,WIN10-430,10.10.96.147,malware_detected,low,EDR,benign,BENIGN-00513
+2026-08-19 08:48:04,barbara.g,SRV-DB-003,10.13.131.246,login_anomaly,low,AD,benign,BENIGN-00653
+2026-08-04 07:38:22,elena.s,LNX-APP-417,185.56.113.179,privilege_escalation,high,EDR,benign,BENIGN-00699
+2026-08-20 23:43:36,fatima.h,SRV-FILE-499,10.8.167.150,phishing_email,medium,Email Gateway,benign,BENIGN-00402
+2026-08-09 16:17:19,david.d,SRV-DB-272,10.16.86.169,powershell_exec,medium,EDR,benign,BENIGN-00294
+2026-08-16 19:54:00,richard.l,SRV-WEB-083,172.115.91.199,privilege_escalation,medium,EDR,benign,BENIGN-00200
+2026-08-24 11:09:27,john.s,WIN10-635,10.6.151.122,powershell_exec,low,EDR,benign,BENIGN-00440
+2026-08-08 17:50:58,jennifer.l,WIN10-599,10.1.23.56,outbound_connection,high,Firewall,benign,BENIGN-00377
+2026-08-30 23:47:00,richard.m,SRV-DB-498,10.22.108.189,outbound_connection,low,Firewall,benign,BENIGN-00546
+2026-08-31 19:19:17,michael.h,LNX-APP-417,10.29.252.103,powershell_exec,medium,EDR,benign,BENIGN-00230
+2026-08-19 01:09:47,linda.x,WIN10-949,10.20.42.113,powershell_exec,medium,EDR,benign,BENIGN-00043
+2026-08-12 04:15:28,richard.m,WIN10-881,10.23.118.242,privilege_escalation,low,AD,benign,BENIGN-00005
+2026-08-08 20:57:52,sarah.n,WIN11-097,10.2.9.189,privilege_escalation,medium,EDR,benign,BENIGN-00420
+2026-08-23 11:08:04,karen.c,SRV-DB-421,203.202.158.167,outbound_connection,medium,Proxy,benign,BENIGN-00598
+2026-08-07 06:34:21,elena.r,SRV-WEB-591,10.12.48.122,outbound_connection,low,Proxy,benign,BENIGN-00683
+2026-08-25 20:17:21,robert.u,WIN10-255,10.6.156.74,powershell_exec,medium,EDR,phishing,INC-S-00077
+2026-08-21 23:42:24,michael.e,SRV-DB-714,10.17.95.49,malware_detected,high,EDR,benign,BENIGN-00266
+2026-08-27 07:10:14,sarah.n,LNX-APP-417,10.23.197.25,data_access,medium,DLP,benign,BENIGN-00275
+2026-08-30 21:16:49,richard.m,WIN10-169,10.26.160.38,powershell_exec,low,EDR,benign,BENIGN-00107
+2026-08-12 01:20:34,sofia.a,SRV-FILE-499,10.19.138.148,outbound_connection,medium,Firewall,benign,BENIGN-00447
+2026-08-07 10:20:02,mei.o,WIN10-169,10.10.82.172,privilege_escalation,critical,EDR,insider,INC-0023
+2026-08-27 12:13:23,linda.b,WIN10-635,10.10.182.96,phishing_email,medium,Email Gateway,benign,BENIGN-00668
+2026-08-16 22:16:32,jennifer.o,LNX-APP-016,10.12.217.189,login_anomaly,low,AD,benign,BENIGN-00064
+2026-08-16 15:10:43,elena.u,SRV-WEB-591,10.1.1.53,phishing_email,low,Email Gateway,phishing,INC-S-00031
+2026-08-05 18:19:14,mary.v,WIN10-594,10.17.20.202,outbound_connection,medium,Proxy,benign,BENIGN-00634
+2026-08-16 12:42:11,sarah.r,WIN11-097,10.1.23.197,credential_dump,low,EDR,benign,BENIGN-00344
+2026-08-15 13:58:04,william.q,WIN10-881,118.233.88.3,outbound_connection,high,Firewall,benign,BENIGN-00597
+2026-08-10 04:04:39,jennifer.w,LNX-APP-946,10.9.46.214,powershell_exec,medium,EDR,benign,BENIGN-00555
+2026-08-12 03:11:50,jessica.a,SRV-DB-515,10.2.3.239,login_anomaly,medium,AD,benign,BENIGN-00289
+2026-08-13 15:47:40,priya.n,MACOS-223,10.6.78.117,outbound_connection,low,Proxy,benign,BENIGN-00663
+2026-08-08 22:54:36,jennifer.i,WIN11-059,118.61.77.225,outbound_connection,medium,Proxy,malware,INC-S-00133
+2026-08-12 00:54:51,sarah.n,SRV-DB-363,10.7.223.68,credential_dump,low,EDR,benign,BENIGN-00241
+2026-08-14 20:45:08,wei.j,MACOS-223,10.12.120.126,credential_dump,low,EDR,benign,BENIGN-00101
+2026-08-21 08:02:53,mei.p,SRV-DB-124,10.24.210.183,privilege_escalation,high,AD,compromised_account,INC-S-00157
+2026-08-25 03:49:23,fatima.u,WIN10-430,10.22.236.126,phishing_email,low,Email Gateway,benign,BENIGN-00265
+2026-08-16 07:23:52,sofia.b,MACOS-059,10.10.203.15,login_anomaly,medium,SIEM,compromised_account,INC-0028
+2026-08-02 11:16:44,jessica.r,SRV-DB-123,10.4.78.242,login_anomaly,medium,SIEM,benign,BENIGN-00680
+2026-08-15 06:44:14,fatima.l,WIN10-635,10.22.73.61,privilege_escalation,high,EDR,phishing,INC-0010
+2026-08-11 07:37:00,yusuf.w,MACOS-059,10.16.38.62,malware_detected,critical,EDR,malware,INC-S-00151
+2026-08-02 11:16:07,joseph.e,MACOS-223,10.24.227.12,phishing_email,high,Email Gateway,benign,BENIGN-00149
+2026-08-12 23:10:33,fatima.d,LNX-APP-544,10.18.102.206,malware_detected,medium,EDR,benign,BENIGN-00516
+2026-08-17 17:59:18,mary.h,LNX-APP-946,10.19.153.201,powershell_exec,high,EDR,compromised_account,INC-S-00165
+2026-08-25 19:35:39,arjun.d,SRV-FILE-499,10.25.254.116,privilege_escalation,high,AD,insider,INC-S-00160
+2026-08-03 08:43:24,sofia.k,SRV-FILE-554,10.12.173.252,phishing_email,medium,Email Gateway,phishing,INC-0005
+2026-08-20 10:54:38,barbara.g,WIN10-454,10.8.214.175,login_anomaly,critical,AD,benign,BENIGN-00629
+2026-08-10 18:24:53,elizabeth.u,WIN11-433,10.21.195.141,outbound_connection,high,Firewall,benign,BENIGN-00519
+2026-08-08 15:48:24,john.y,MACOS-059,10.8.159.156,malware_detected,low,EDR,benign,BENIGN-00143
+2026-08-22 04:37:13,thomas.d,LNX-APP-564,10.23.240.228,credential_dump,high,EDR,benign,BENIGN-00290
+2026-08-28 05:05:03,priya.n,SRV-FILE-647,10.9.110.170,powershell_exec,low,EDR,benign,BENIGN-00518
+2026-08-13 12:03:42,fatima.d,SRV-WEB-226,61.113.221.31,credential_dump,low,EDR,benign,BENIGN-00028
+2026-08-24 18:17:11,jessica.r,WIN11-097,10.14.21.3,data_access,low,SIEM,benign,BENIGN-00545
+2026-08-18 03:38:57,thomas.t,WIN10-594,10.13.237.216,powershell_exec,medium,EDR,benign,BENIGN-00534
+2026-08-19 19:58:33,joseph.u,SRV-DB-885,10.27.92.26,credential_dump,critical,EDR,malware,INC-S-00010
+2026-08-23 06:30:00,susan.g,SRV-DB-421,10.11.121.25,credential_dump,medium,EDR,benign,BENIGN-00013
+2026-08-03 09:15:26,fatima.u,WIN10-610,10.25.50.38,privilege_escalation,high,AD,malware,INC-0008
+2026-08-14 09:43:04,wei.r,WIN10-235,10.29.245.101,data_access,low,DLP,benign,BENIGN-00532
+2026-08-08 07:53:52,fatima.d,LNX-APP-883,10.13.198.179,outbound_connection,medium,Proxy,benign,BENIGN-00306
+2026-08-11 09:45:30,carlos.r,SRV-FILE-554,10.15.43.142,outbound_connection,medium,Firewall,benign,BENIGN-00638
+2026-08-05 06:04:02,michael.y,LNX-APP-485,10.5.165.144,credential_dump,medium,EDR,benign,BENIGN-00449
+2026-08-29 00:58:40,karen.u,SRV-FILE-348,118.197.11.198,data_access,low,DLP,benign,BENIGN-00587
+2026-08-27 17:29:05,mary.v,SRV-WEB-678,10.30.106.143,login_anomaly,low,SIEM,insider,INC-S-00137
+2026-08-10 01:49:36,sofia.k,LNX-APP-544,10.9.116.245,malware_detected,medium,EDR,benign,BENIGN-00459
+2026-08-27 05:47:02,james.r,WIN11-433,10.24.19.170,privilege_escalation,medium,AD,benign,BENIGN-00503
+2026-08-31 02:33:22,john.r,MACOS-059,10.13.59.222,outbound_connection,medium,Firewall,benign,BENIGN-00649
+2026-08-11 18:06:44,robert.u,WIN10-169,10.23.188.172,powershell_exec,high,EDR,malware,INC-0006
+2026-08-31 00:35:14,john.g,SRV-WEB-678,10.24.86.174,powershell_exec,medium,EDR,phishing,INC-S-00045
+2026-08-29 13:49:30,linda.y,SRV-FILE-958,10.21.221.109,login_anomaly,medium,SIEM,benign,BENIGN-00512
+2026-08-14 12:14:03,linda.e,SRV-FILE-598,10.3.205.132,powershell_exec,high,EDR,benign,BENIGN-00236
+2026-08-21 04:12:17,michael.y,WIN11-286,10.21.246.177,malware_detected,high,EDR,benign,BENIGN-00573
+2026-08-14 14:02:39,charles.n,WIN10-599,185.133.200.211,login_anomaly,low,AD,benign,BENIGN-00054
+2026-08-06 03:45:16,carlos.u,WIN10-413,10.17.126.113,privilege_escalation,high,EDR,phishing,INC-0022
+2026-08-27 18:29:15,carlos.x,WIN10-766,10.28.248.94,powershell_exec,high,EDR,malware,INC-S-00002
+2026-08-21 15:12:38,sofia.a,SRV-WEB-609,10.21.154.244,malware_detected,critical,EDR,benign,BENIGN-00500
+2026-08-26 05:37:20,charles.g,SRV-FILE-348,10.1.250.33,outbound_connection,high,Proxy,benign,BENIGN-00550
+2026-08-05 09:06:00,mary.h,SRV-WEB-678,10.27.109.49,data_access,high,SIEM,benign,BENIGN-00496
+2026-08-12 18:07:26,linda.o,WIN11-171,10.3.115.129,privilege_escalation,high,AD,insider,INC-S-00016
+2026-08-27 20:25:53,david.d,WIN10-413,10.9.121.192,login_anomaly,low,SIEM,benign,BENIGN-00399
+2026-08-03 21:57:21,fatima.d,WIN10-413,10.26.44.224,malware_detected,high,EDR,benign,BENIGN-00148
+2026-08-24 23:29:56,carlos.x,WIN10-610,61.178.54.117,credential_dump,low,EDR,benign,BENIGN-00609
+2026-08-20 12:21:08,jennifer.l,LNX-APP-564,10.17.243.155,malware_detected,low,EDR,benign,BENIGN-00560
+2026-08-15 20:27:30,john.c,SRV-FILE-101,10.3.138.44,phishing_email,low,Email Gateway,benign,BENIGN-00621
+2026-08-10 11:03:21,elena.m,SRV-FILE-556,10.28.67.185,data_access,low,DLP,benign,BENIGN-00661
+2026-08-07 07:41:53,karen.l,LNX-APP-241,10.11.84.173,privilege_escalation,critical,AD,insider,INC-S-00100
+2026-08-10 19:17:49,david.y,SRV-DB-515,10.8.49.30,privilege_escalation,medium,EDR,benign,BENIGN-00195
+2026-08-21 15:12:56,mei.h,SRV-DB-714,141.100.115.162,powershell_exec,low,EDR,benign,BENIGN-00189
+2026-08-06 15:27:51,linda.v,SRV-DB-885,203.159.112.196,phishing_email,medium,Email Gateway,benign,BENIGN-00646
+2026-08-14 17:01:05,david.y,SRV-WEB-678,10.0.74.250,outbound_connection,low,Proxy,benign,BENIGN-00544
+2026-08-17 06:06:48,william.q,SRV-WEB-678,10.2.66.168,powershell_exec,low,EDR,benign,BENIGN-00154
+2026-08-17 03:30:50,jennifer.l,WIN10-599,10.9.116.154,powershell_exec,medium,EDR,benign,BENIGN-00495
+2026-08-10 16:39:40,carlos.i,LNX-APP-544,10.15.173.7,login_anomaly,low,SIEM,benign,BENIGN-00502
+2026-08-19 22:35:54,yusuf.w,MACOS-686,10.13.28.31,phishing_email,medium,Email Gateway,benign,BENIGN-00610
+2026-08-15 08:48:14,fatima.l,WIN10-635,10.8.112.20,outbound_connection,high,Proxy,phishing,INC-0010
+2026-08-16 12:54:44,robert.u,WIN11-231,185.234.66.3,data_access,low,SIEM,benign,BENIGN-00676
+2026-08-17 10:19:56,susan.k,WIN11-059,10.2.200.182,credential_dump,medium,EDR,benign,BENIGN-00180
+2026-08-24 19:22:40,mei.d,WIN10-594,10.21.138.147,powershell_exec,medium,EDR,benign,BENIGN-00507
+2026-08-25 15:00:41,john.y,WIN11-195,10.12.108.48,outbound_connection,medium,Firewall,benign,BENIGN-00021
+2026-08-13 09:33:25,mei.d,LNX-APP-544,10.9.198.205,data_access,medium,SIEM,insider,INC-0030
+2026-08-20 19:05:10,linda.e,SRV-FILE-554,10.20.65.225,data_access,high,DLP,benign,BENIGN-00319
+2026-08-17 17:34:11,john.g,WIN10-430,45.11.251.167,phishing_email,low,Email Gateway,benign,BENIGN-00208
+2026-08-19 11:43:40,william.q,SRV-FILE-598,10.12.245.107,privilege_escalation,medium,EDR,benign,BENIGN-00583
+2026-08-25 18:17:23,jennifer.l,SRV-DB-363,10.8.171.221,phishing_email,medium,Email Gateway,benign,BENIGN-00018
+2026-08-13 16:27:25,mei.d,LNX-APP-544,10.26.231.232,outbound_connection,medium,Proxy,insider,INC-0030
+2026-08-29 16:50:29,robert.u,MACOS-223,10.17.122.150,phishing_email,high,Email Gateway,benign,BENIGN-00171
+2026-08-15 07:16:27,priya.i,LNX-APP-544,118.111.216.105,outbound_connection,low,Proxy,benign,BENIGN-00641
+2026-08-29 00:13:12,yusuf.z,SRV-FILE-598,10.15.62.117,credential_dump,critical,EDR,compromised_account,INC-0025
+2026-08-18 14:30:40,thomas.p,WIN10-235,203.134.195.249,privilege_escalation,low,AD,benign,BENIGN-00484
+2026-08-28 17:54:52,richard.u,MACOS-223,10.28.10.36,phishing_email,low,Email Gateway,benign,BENIGN-00465
+2026-08-05 01:42:40,fatima.h,SRV-FILE-647,10.8.126.38,powershell_exec,medium,EDR,malware,INC-S-00167
+2026-08-23 13:31:02,mary.h,SRV-WEB-460,10.7.20.118,data_access,high,SIEM,benign,BENIGN-00158
+2026-08-09 00:05:00,jessica.r,SRV-WEB-136,10.17.240.94,credential_dump,high,EDR,compromised_account,INC-S-00097
+2026-08-05 13:39:06,richard.i,SRV-FILE-803,10.14.80.238,powershell_exec,high,EDR,phishing,INC-0001
+2026-08-18 02:14:29,karen.l,WIN10-347,10.15.146.188,login_anomaly,low,SIEM,benign,BENIGN-00391
+2026-08-28 05:48:02,elizabeth.h,WIN10-949,10.12.173.230,outbound_connection,high,Proxy,malware,INC-S-00158
+2026-08-25 16:26:46,karen.u,SRV-WEB-609,10.18.185.157,login_anomaly,low,AD,benign,BENIGN-00579
+2026-08-29 03:39:12,yusuf.z,SRV-FILE-598,10.15.62.117,data_access,medium,SIEM,compromised_account,INC-0025
+2026-08-11 08:32:30,sofia.a,WIN10-255,10.5.248.55,powershell_exec,low,EDR,benign,BENIGN-00106
+2026-08-18 03:51:48,robert.u,LNX-APP-016,61.99.228.177,credential_dump,medium,EDR,benign,BENIGN-00446
+2026-08-15 22:00:57,arjun.c,WIN10-675,10.23.70.138,login_anomaly,low,SIEM,insider,INC-S-00150
+2026-08-19 11:34:28,robert.v,WIN11-059,10.15.116.131,malware_detected,low,EDR,benign,BENIGN-00056
+2026-08-02 17:51:53,elena.r,SRV-WEB-083,10.9.244.233,credential_dump,high,EDR,malware,INC-S-00140
+2026-08-20 02:08:09,jennifer.z,WIN10-235,103.225.187.24,phishing_email,high,Email Gateway,benign,BENIGN-00150
+2026-08-17 13:50:18,william.e,SRV-DB-714,10.23.113.199,powershell_exec,low,EDR,benign,BENIGN-00113
+2026-08-06 01:03:54,patricia.v,SRV-FILE-348,10.17.2.29,powershell_exec,medium,EDR,compromised_account,INC-0003
+2026-08-26 05:25:41,fatima.l,SRV-FILE-056,10.0.188.48,outbound_connection,high,Firewall,phishing,INC-S-00076
+2026-08-04 21:50:29,wei.c,SRV-FILE-647,10.16.28.188,data_access,high,SIEM,benign,BENIGN-00601
+2026-08-04 14:32:16,fatima.d,WIN11-097,10.27.30.121,phishing_email,high,Email Gateway,benign,BENIGN-00130
+2026-08-24 06:35:48,john.c,WIN10-949,10.7.193.87,credential_dump,medium,EDR,benign,BENIGN-00237
+2026-08-16 12:12:32,david.g,WIN10-881,10.12.169.49,data_access,medium,DLP,benign,BENIGN-00416
+2026-08-14 09:33:02,karen.i,SRV-FILE-958,10.30.212.108,login_anomaly,low,SIEM,insider,INC-0013
+2026-08-02 00:20:03,michael.w,SRV-DB-249,10.11.61.168,data_access,critical,DLP,benign,BENIGN-00232
+2026-08-25 00:33:42,richard.i,SRV-FILE-101,10.11.244.40,privilege_escalation,high,EDR,insider,INC-S-00021
+2026-08-04 14:27:40,karen.u,SRV-FILE-556,10.10.215.116,privilege_escalation,high,EDR,benign,BENIGN-00022
+2026-08-05 10:44:04,linda.b,SRV-WEB-536,10.15.163.153,data_access,medium,DLP,benign,BENIGN-00047
+2026-08-08 16:54:32,priya.n,SRV-DB-123,10.21.204.52,data_access,low,DLP,benign,BENIGN-00322
+2026-08-06 09:14:16,carlos.u,WIN10-413,10.30.69.129,outbound_connection,medium,Proxy,phishing,INC-0022
+2026-08-27 22:54:55,joseph.q,WIN10-594,10.14.235.33,privilege_escalation,critical,EDR,insider,INC-0012
+2026-08-08 21:03:47,carlos.q,SRV-FILE-598,10.30.21.30,credential_dump,low,EDR,benign,BENIGN-00012
+2026-08-05 05:03:14,john.s,SRV-DB-515,10.6.193.53,malware_detected,low,EDR,benign,BENIGN-00328
+2026-08-06 03:51:21,mei.d,LNX-APP-564,10.22.170.25,malware_detected,medium,EDR,benign,BENIGN-00103
+2026-08-18 05:54:10,thomas.p,SRV-FILE-101,10.20.24.116,data_access,low,SIEM,benign,BENIGN-00252
+2026-08-02 02:05:39,john.c,SRV-FILE-670,10.9.32.46,privilege_escalation,high,AD,benign,BENIGN-00089
+2026-08-15 01:41:57,mei.h,WIN10-599,10.7.182.129,login_anomaly,low,SIEM,benign,BENIGN-00387
+2026-08-30 18:55:06,karen.c,WIN10-454,78.67.44.176,phishing_email,high,Email Gateway,benign,BENIGN-00538
+2026-08-23 09:56:12,jennifer.l,SRV-DB-363,10.8.136.82,data_access,medium,SIEM,benign,BENIGN-00363
+2026-08-15 09:30:47,ahmed.c,SRV-FILE-647,91.220.80.6,malware_detected,high,EDR,benign,BENIGN-00298
+2026-08-28 05:45:41,james.c,WIN10-599,10.8.138.88,data_access,medium,DLP,benign,BENIGN-00504
+2026-08-17 18:59:27,charles.i,SRV-FILE-670,78.16.157.247,powershell_exec,low,EDR,benign,BENIGN-00622
+2026-08-18 16:26:03,fatima.d,MACOS-223,10.19.53.184,login_anomaly,medium,SIEM,phishing,INC-0002
+2026-08-24 01:29:02,jennifer.r,SRV-WEB-244,10.26.57.217,credential_dump,low,EDR,benign,BENIGN-00161
+2026-08-06 01:47:05,priya.i,LNX-APP-485,172.201.5.15,privilege_escalation,low,AD,benign,BENIGN-00525
+2026-08-26 06:24:39,david.g,WIN11-286,10.19.46.184,data_access,medium,DLP,benign,BENIGN-00429
+2026-08-03 04:47:02,yusuf.w,MACOS-223,10.17.185.73,outbound_connection,high,Proxy,benign,BENIGN-00184
+2026-08-03 00:27:33,elena.m,LNX-APP-241,10.8.233.26,privilege_escalation,high,EDR,benign,BENIGN-00662
+2026-08-28 14:14:23,john.s,WIN11-231,10.23.131.77,privilege_escalation,high,EDR,benign,BENIGN-00169
+2026-08-02 02:51:01,linda.b,WIN10-928,10.7.6.203,malware_detected,low,EDR,benign,BENIGN-00474
+2026-08-06 00:21:16,carlos.u,WIN10-413,10.17.126.113,login_anomaly,low,SIEM,phishing,INC-0022
+2026-08-13 17:58:29,thomas.p,SRV-WEB-678,10.4.162.78,powershell_exec,low,EDR,benign,BENIGN-00006
+2026-08-04 11:56:19,jennifer.z,WIN10-073,10.27.234.185,credential_dump,critical,EDR,compromised_account,INC-S-00023
+2026-08-10 23:41:12,yusuf.w,WIN10-603,172.94.178.151,data_access,low,DLP,benign,BENIGN-00492
+2026-08-04 18:49:36,arjun.p,SRV-WEB-236,10.19.111.71,privilege_escalation,high,AD,phishing,INC-S-00072
+2026-08-18 02:14:34,richard.u,SRV-DB-714,10.6.61.124,data_access,high,SIEM,benign,BENIGN-00658
+2026-08-23 08:37:29,jennifer.i,WIN10-594,10.4.142.219,privilege_escalation,low,EDR,benign,BENIGN-00552
+2026-08-06 09:05:12,fatima.h,SRV-DB-003,10.23.2.60,malware_detected,low,EDR,benign,BENIGN-00271
+2026-08-15 04:44:43,patricia.l,SRV-DB-885,10.25.232.157,outbound_connection,low,Proxy,benign,BENIGN-00268
+2026-08-11 03:31:16,jennifer.r,SRV-DB-220,10.4.128.57,outbound_connection,medium,Firewall,benign,BENIGN-00482
+2026-08-25 05:09:40,carlos.q,LNX-APP-191,10.30.13.65,malware_detected,high,EDR,malware,INC-0019
+2026-08-06 16:47:36,carlos.u,SRV-FILE-499,10.14.63.37,credential_dump,high,EDR,malware,INC-S-00091
+2026-08-30 09:42:53,ahmed.c,WIN10-675,10.17.239.111,credential_dump,medium,EDR,benign,BENIGN-00166
+2026-08-23 19:58:38,mei.o,WIN10-881,10.23.229.11,outbound_connection,medium,Proxy,insider,INC-S-00042
+2026-08-29 18:44:30,mei.h,WIN11-171,10.20.131.11,privilege_escalation,low,EDR,benign,BENIGN-00214
+2026-08-27 05:35:07,yusuf.r,WIN11-059,10.20.250.183,privilege_escalation,critical,AD,benign,BENIGN-00596
+2026-08-07 09:13:53,arjun.c,SRV-DB-124,10.29.36.199,login_anomaly,high,SIEM,benign,BENIGN-00086
+2026-08-14 01:49:46,sarah.a,SRV-DB-714,10.6.49.135,powershell_exec,medium,EDR,benign,BENIGN-00292
+2026-08-20 20:45:00,carlos.q,WIN10-594,10.1.146.165,data_access,medium,SIEM,benign,BENIGN-00288
+2026-08-23 05:55:34,john.c,SRV-DB-219,203.208.231.43,outbound_connection,medium,Proxy,malware,INC-S-00051
+2026-08-27 23:55:09,mary.h,LNX-APP-564,10.26.133.108,data_access,medium,SIEM,benign,BENIGN-00104
+2026-08-15 18:16:49,susan.g,WIN11-171,10.29.228.79,privilege_escalation,low,AD,benign,BENIGN-00612
+2026-08-11 19:11:32,fatima.u,SRV-FILE-556,10.25.160.151,powershell_exec,medium,EDR,phishing,INC-0021
+2026-08-24 16:33:46,susan.g,LNX-APP-804,10.21.121.178,data_access,medium,SIEM,benign,BENIGN-00656
+2026-08-06 12:28:28,jennifer.r,SRV-DB-249,78.188.19.141,powershell_exec,low,EDR,benign,BENIGN-00096
+2026-08-02 10:21:59,fatima.h,SRV-WEB-678,10.27.199.248,data_access,medium,DLP,benign,BENIGN-00120
+2026-08-14 10:44:02,karen.i,SRV-FILE-958,10.30.212.108,privilege_escalation,high,EDR,insider,INC-0013
+2026-08-26 16:35:11,elena.m,SRV-DB-885,10.18.60.127,login_anomaly,medium,SIEM,benign,BENIGN-00624
+2026-08-11 16:39:51,linda.e,WIN10-675,10.13.247.42,privilege_escalation,high,AD,phishing,INC-S-00054
+2026-08-27 17:18:22,william.q,SRV-DB-293,10.27.174.98,credential_dump,low,EDR,benign,BENIGN-00131
+2026-08-15 17:40:49,carlos.x,WIN10-169,203.56.254.211,outbound_connection,medium,Firewall,benign,BENIGN-00543
+2026-08-23 17:41:53,priya.x,WIN10-766,10.24.127.161,credential_dump,high,EDR,compromised_account,INC-0024
+2026-08-19 02:00:29,karen.u,SRV-WEB-591,10.0.88.176,phishing_email,low,Email Gateway,benign,BENIGN-00318
+2026-08-29 10:32:31,karen.l,SRV-FILE-598,203.171.37.205,malware_detected,medium,EDR,benign,BENIGN-00464
+2026-08-03 11:36:30,jessica.r,WIN10-413,10.20.236.32,malware_detected,low,EDR,benign,BENIGN-00117
+2026-08-25 08:36:39,carlos.u,WIN10-881,10.27.11.107,login_anomaly,medium,SIEM,benign,BENIGN-00613
+2026-08-21 16:25:48,jennifer.r,SRV-FILE-598,91.45.156.220,outbound_connection,high,Proxy,compromised_account,INC-S-00116
+2026-08-11 10:47:22,jessica.a,SRV-WEB-609,141.14.145.144,outbound_connection,high,Proxy,phishing,INC-S-00095
+2026-08-11 00:36:53,james.x,SRV-FILE-101,91.81.30.191,phishing_email,low,Email Gateway,phishing,INC-0018
+2026-08-09 14:50:00,wei.g,WIN10-928,203.14.2.165,privilege_escalation,medium,AD,benign,BENIGN-00156
+2026-08-21 10:43:26,elena.r,WIN10-052,10.11.93.219,outbound_connection,low,Firewall,benign,BENIGN-00248
+2026-08-24 07:27:04,susan.g,SRV-WEB-136,45.12.25.161,credential_dump,low,EDR,benign,BENIGN-00036
+2026-08-29 16:33:10,carlos.e,WIN10-052,10.12.224.97,data_access,low,DLP,benign,BENIGN-00539
+2026-08-09 12:40:08,carlos.f,LNX-APP-485,10.14.173.58,outbound_connection,high,Firewall,benign,BENIGN-00565
+2026-08-11 23:14:44,robert.u,WIN10-169,10.23.188.172,credential_dump,critical,EDR,malware,INC-0006
+2026-08-13 18:48:54,john.g,LNX-APP-883,10.23.230.144,privilege_escalation,high,AD,phishing,INC-S-00166
+2026-08-15 15:21:20,linda.e,LNX-APP-870,103.65.33.158,privilege_escalation,low,AD,benign,BENIGN-00394
+2026-08-04 06:43:03,jessica.a,WIN10-635,10.28.184.58,credential_dump,low,EDR,benign,BENIGN-00642
+2026-08-28 02:40:55,joseph.q,WIN10-594,141.186.42.216,outbound_connection,medium,Proxy,insider,INC-0012
+2026-08-22 21:41:36,fatima.h,LNX-APP-883,10.23.108.21,data_access,medium,SIEM,phishing,INC-S-00070
+2026-08-25 07:04:17,charles.i,LNX-APP-411,10.26.181.169,phishing_email,medium,Email Gateway,benign,BENIGN-00558
+2026-08-21 05:08:59,jennifer.l,LNX-APP-191,10.8.149.31,outbound_connection,medium,Firewall,benign,BENIGN-00278
+2026-08-28 17:04:27,michael.h,SRV-DB-885,10.6.96.197,phishing_email,high,Email Gateway,benign,BENIGN-00296
+2026-08-18 15:44:09,mary.h,SRV-FILE-348,10.15.245.157,privilege_escalation,low,AD,benign,BENIGN-00247
+2026-08-02 09:24:56,karen.l,SRV-FILE-670,10.9.94.249,privilege_escalation,medium,EDR,benign,BENIGN-00654
+2026-08-04 17:46:04,john.c,MACOS-059,10.11.105.90,phishing_email,medium,Email Gateway,benign,BENIGN-00510
+2026-08-03 22:04:33,fatima.h,SRV-WEB-460,10.21.154.155,malware_detected,high,EDR,malware,INC-S-00139
+2026-08-03 12:08:26,fatima.u,WIN10-610,91.173.79.58,outbound_connection,medium,Firewall,malware,INC-0008
+2026-08-03 17:35:28,karen.u,LNX-APP-883,172.189.48.36,phishing_email,low,Email Gateway,benign,BENIGN-00417
+2026-08-24 03:38:07,karen.i,WIN10-413,10.23.23.74,credential_dump,low,EDR,benign,BENIGN-00690
+2026-08-21 00:39:49,priya.x,SRV-DB-124,10.29.89.80,data_access,medium,DLP,compromised_account,INC-S-00047
+2026-08-22 04:18:32,jennifer.o,LNX-APP-191,10.27.182.111,login_anomaly,high,SIEM,benign,BENIGN-00578
+2026-08-04 08:11:51,michael.e,LNX-APP-544,10.20.214.6,login_anomaly,medium,SIEM,benign,BENIGN-00141
+2026-08-20 12:10:20,richard.v,WIN10-675,10.30.205.124,login_anomaly,low,AD,benign,BENIGN-00221
+2026-08-13 19:55:13,linda.y,WIN10-413,10.13.61.159,malware_detected,medium,EDR,benign,BENIGN-00373
+2026-08-18 09:43:15,carlos.u,SRV-WEB-591,10.26.200.49,data_access,low,SIEM,benign,BENIGN-00164
+2026-08-25 16:23:28,karen.i,SRV-WEB-253,203.234.123.169,outbound_connection,medium,Firewall,malware,INC-S-00149
+2026-08-06 02:26:54,patricia.v,SRV-FILE-348,10.17.2.29,credential_dump,critical,EDR,compromised_account,INC-0003
+2026-08-30 23:40:44,john.c,WIN10-610,61.232.80.125,data_access,medium,DLP,benign,BENIGN-00316
+2026-08-20 01:13:44,william.e,SRV-FILE-554,10.11.64.22,privilege_escalation,medium,EDR,benign,BENIGN-00038
+2026-08-08 07:35:42,joseph.q,MACOS-059,10.23.189.96,login_anomaly,low,SIEM,compromised_account,INC-S-00022
+2026-08-15 23:51:36,karen.k,MACOS-223,10.15.195.93,powershell_exec,medium,EDR,benign,BENIGN-00494
+2026-08-21 10:42:40,ahmed.l,LNX-APP-564,10.7.33.51,powershell_exec,low,EDR,benign,BENIGN-00073
+2026-08-16 21:16:35,david.g,SRV-WEB-253,10.15.64.254,credential_dump,medium,EDR,benign,BENIGN-00226
+2026-08-27 08:48:13,elena.a,LNX-APP-016,10.25.1.148,malware_detected,low,EDR,benign,BENIGN-00223
+2026-08-24 02:30:46,elena.a,LNX-APP-804,10.9.28.164,outbound_connection,medium,Proxy,benign,BENIGN-00269
+2026-08-12 08:22:00,sofia.k,WIN10-692,10.20.16.54,privilege_escalation,high,AD,benign,BENIGN-00186
+2026-08-15 04:02:17,elena.u,SRV-FILE-958,10.29.184.82,outbound_connection,high,Proxy,benign,BENIGN-00059
+2026-08-18 07:59:22,john.s,SRV-DB-219,10.12.166.21,privilege_escalation,critical,EDR,insider,INC-0027
+2026-08-11 02:02:47,arjun.d,SRV-WEB-460,10.5.90.55,credential_dump,low,EDR,benign,BENIGN-00076
+2026-08-11 06:50:44,karen.c,WIN10-692,185.196.139.97,phishing_email,low,Email Gateway,phishing,INC-0026
+2026-08-21 01:49:21,priya.x,SRV-DB-003,10.8.217.81,outbound_connection,medium,Proxy,benign,BENIGN-00067
+2026-08-25 08:02:40,carlos.q,LNX-APP-191,10.30.13.65,privilege_escalation,high,AD,malware,INC-0019
+2026-08-07 03:47:22,carlos.q,SRV-DB-124,10.13.55.158,credential_dump,high,EDR,benign,BENIGN-00410
+2026-08-07 11:06:23,susan.b,WIN10-169,10.29.147.23,malware_detected,medium,EDR,benign,BENIGN-00308
+2026-08-24 23:18:04,david.d,SRV-WEB-591,10.2.239.225,data_access,medium,DLP,benign,BENIGN-00259
+2026-08-28 20:23:52,wei.v,SRV-FILE-556,10.9.83.23,credential_dump,medium,EDR,benign,BENIGN-00061
+2026-08-15 08:24:59,jennifer.l,WIN11-231,10.4.16.33,login_anomaly,medium,SIEM,compromised_account,INC-S-00018
+2026-08-12 00:33:57,linda.y,WIN10-052,10.2.99.245,privilege_escalation,low,EDR,benign,BENIGN-00687
+2026-08-27 04:28:10,mary.h,LNX-APP-883,10.2.75.114,malware_detected,low,EDR,benign,BENIGN-00671
+2026-08-04 16:59:59,barbara.g,SRV-FILE-647,10.13.16.27,credential_dump,medium,EDR,benign,BENIGN-00648
+2026-08-15 06:21:42,linda.y,SRV-WEB-591,10.21.195.3,powershell_exec,low,EDR,benign,BENIGN-00698
+2026-08-04 00:43:51,richard.u,SRV-FILE-958,91.110.103.199,credential_dump,medium,EDR,benign,BENIGN-00329
+2026-08-24 12:30:48,james.c,WIN10-949,10.23.159.63,data_access,low,SIEM,benign,BENIGN-00062
+2026-08-14 20:50:01,mei.p,WIN10-347,10.14.159.207,phishing_email,low,Email Gateway,benign,BENIGN-00570
+2026-08-14 04:37:16,thomas.t,WIN11-171,10.8.225.116,privilege_escalation,critical,EDR,insider,INC-0016
+2026-08-02 07:40:29,wei.j,SRV-DB-363,10.13.196.197,powershell_exec,low,EDR,benign,BENIGN-00591
+2026-08-30 03:13:39,susan.g,SRV-DB-421,10.22.214.228,malware_detected,low,EDR,benign,BENIGN-00619
+2026-08-07 09:27:05,carlos.x,LNX-APP-417,10.1.71.35,phishing_email,high,Email Gateway,benign,BENIGN-00438
+2026-08-12 01:58:50,robert.u,SRV-WEB-678,10.1.140.128,phishing_email,medium,Email Gateway,benign,BENIGN-00145
+2026-08-21 10:58:17,susan.k,SRV-WEB-460,10.19.122.150,outbound_connection,medium,Proxy,benign,BENIGN-00007
+2026-08-14 23:37:39,charles.n,SRV-WEB-136,10.10.167.75,powershell_exec,medium,EDR,benign,BENIGN-00256
+2026-08-04 05:30:37,linda.e,LNX-APP-544,10.25.132.252,powershell_exec,critical,EDR,benign,BENIGN-00060
+2026-08-21 12:02:14,david.g,SRV-FILE-554,10.19.155.175,login_anomaly,low,SIEM,benign,BENIGN-00111
+2026-08-19 06:08:16,carlos.i,WIN10-413,10.18.208.65,outbound_connection,low,Firewall,benign,BENIGN-00568
+2026-08-15 03:40:44,richard.u,WIN10-430,10.6.36.164,outbound_connection,medium,Proxy,benign,BENIGN-00428
+2026-08-15 14:18:31,susan.k,SRV-DB-219,10.1.161.204,malware_detected,high,EDR,benign,BENIGN-00666
+2026-08-13 13:12:36,elizabeth.u,SRV-DB-256,45.34.3.92,outbound_connection,high,Firewall,malware,INC-S-00014
+2026-08-03 16:57:29,joseph.u,SRV-DB-003,10.26.43.8,malware_detected,medium,EDR,benign,BENIGN-00261
+2026-08-11 09:09:53,james.x,SRV-FILE-101,91.81.30.191,outbound_connection,medium,Proxy,phishing,INC-0018
+2026-08-09 04:10:15,linda.x,WIN11-433,10.24.215.98,data_access,medium,DLP,insider,INC-S-00102
+2026-08-12 11:21:30,sofia.k,LNX-APP-870,10.2.3.68,credential_dump,low,EDR,benign,BENIGN-00049
+2026-08-29 09:00:13,karen.i,SRV-DB-003,10.16.106.117,login_anomaly,low,SIEM,insider,INC-S-00124
+2026-08-03 20:52:09,john.m,WIN11-286,203.153.137.135,phishing_email,medium,Email Gateway,benign,BENIGN-00330
+2026-08-29 08:45:54,david.d,LNX-APP-417,10.19.191.78,malware_detected,low,EDR,benign,BENIGN-00392
+2026-08-14 13:21:37,david.g,WIN10-430,10.11.88.42,credential_dump,medium,EDR,benign,BENIGN-00118
+2026-08-11 07:54:53,james.x,SRV-FILE-101,10.17.243.196,data_access,medium,DLP,phishing,INC-0018
+2026-08-07 09:11:44,john.y,SRV-FILE-499,185.30.88.111,outbound_connection,high,Proxy,insider,INC-S-00030
+2026-08-17 18:42:35,robert.u,SRV-DB-123,10.16.53.144,login_anomaly,medium,SIEM,insider,INC-S-00104
+2026-08-29 10:12:20,susan.g,SRV-WEB-678,45.214.133.77,credential_dump,medium,EDR,benign,BENIGN-00354
+2026-08-23 03:49:09,john.c,SRV-DB-515,10.18.124.14,data_access,low,SIEM,benign,BENIGN-00436
+2026-08-17 16:51:32,susan.b,WIN11-097,185.35.100.106,privilege_escalation,medium,EDR,benign,BENIGN-00334
+2026-08-31 12:34:57,carlos.x,WIN10-430,10.24.94.43,login_anomaly,low,AD,compromised_account,INC-0014
+2026-08-18 02:31:22,john.s,SRV-DB-219,10.12.166.21,login_anomaly,medium,SIEM,insider,INC-0027
+2026-08-25 05:11:43,john.r,SRV-WEB-609,103.214.98.177,powershell_exec,medium,EDR,benign,BENIGN-00151
+2026-08-15 22:42:58,linda.v,WIN10-692,10.26.67.64,phishing_email,low,Email Gateway,benign,BENIGN-00239
+2026-08-08 07:34:08,jennifer.i,WIN11-059,10.5.63.133,malware_detected,high,EDR,benign,BENIGN-00537
+2026-08-22 05:03:11,priya.i,SRV-WEB-460,10.25.134.82,powershell_exec,high,EDR,compromised_account,INC-S-00135
+2026-08-20 23:40:13,linda.v,LNX-APP-191,10.27.232.106,phishing_email,low,Email Gateway,benign,BENIGN-00686
+2026-08-24 22:02:26,yusuf.s,LNX-APP-417,10.17.228.139,data_access,medium,DLP,benign,BENIGN-00203
+2026-08-22 10:20:28,yusuf.z,SRV-FILE-803,10.27.214.146,phishing_email,low,Email Gateway,benign,BENIGN-00048
+2026-08-06 08:15:04,mei.o,WIN10-430,10.4.95.198,login_anomaly,low,SIEM,benign,BENIGN-00279
+2026-08-18 11:08:29,joseph.u,SRV-DB-714,10.18.232.176,phishing_email,high,Email Gateway,benign,BENIGN-00582
+2026-08-29 21:21:47,jessica.r,WIN11-433,10.28.252.226,credential_dump,high,EDR,benign,BENIGN-00243
+2026-08-22 21:44:57,jennifer.l,MACOS-686,10.0.127.192,powershell_exec,medium,EDR,phishing,INC-S-00032
+2026-08-21 20:27:51,linda.o,WIN11-433,10.14.119.111,credential_dump,low,EDR,benign,BENIGN-00672
+2026-08-05 21:44:19,barbara.g,LNX-APP-946,10.27.245.88,outbound_connection,high,Proxy,benign,BENIGN-00415
+2026-08-24 09:23:06,karen.u,LNX-APP-411,10.3.89.123,credential_dump,high,EDR,benign,BENIGN-00371
+2026-08-27 19:39:39,sofia.a,WIN10-430,10.0.30.169,data_access,low,DLP,benign,BENIGN-00618
+2026-08-19 23:54:08,carlos.i,WIN10-430,10.10.234.53,outbound_connection,high,Proxy,insider,INC-S-00143
+2026-08-16 03:33:41,karen.o,SRV-FILE-803,10.12.247.82,data_access,medium,SIEM,benign,BENIGN-00003
+2026-08-29 00:43:34,elena.a,WIN10-052,10.28.44.158,outbound_connection,medium,Proxy,insider,INC-0007
+2026-08-06 05:48:04,elena.m,LNX-APP-241,10.27.114.174,malware_detected,critical,EDR,benign,BENIGN-00467
+2026-08-05 12:38:06,richard.i,SRV-FILE-803,78.172.165.77,phishing_email,medium,Email Gateway,phishing,INC-0001
+2026-08-27 09:42:26,jessica.a,SRV-WEB-678,10.9.2.1,malware_detected,high,EDR,benign,BENIGN-00264
+2026-08-28 13:41:56,john.s,WIN10-235,10.19.1.63,credential_dump,low,EDR,benign,BENIGN-00341
+2026-08-08 19:45:51,yusuf.r,SRV-WEB-678,61.102.241.215,powershell_exec,low,EDR,benign,BENIGN-00526
+2026-08-15 05:01:21,sofia.a,WIN11-433,10.1.172.21,powershell_exec,high,EDR,malware,INC-S-00029
+2026-08-22 14:48:57,elena.m,WIN11-195,10.12.31.60,phishing_email,medium,Email Gateway,benign,BENIGN-00499
+2026-08-19 15:47:02,sofia.b,WIN10-603,10.27.25.40,credential_dump,low,EDR,benign,BENIGN-00590
+2026-08-20 04:48:16,john.y,LNX-APP-544,118.61.98.21,phishing_email,low,Email Gateway,phishing,INC-S-00057
+2026-08-09 11:44:43,charles.i,SRV-WEB-460,10.22.200.163,powershell_exec,high,EDR,compromised_account,INC-S-00162
+2026-08-19 17:36:04,mei.o,WIN10-766,10.12.167.97,malware_detected,medium,EDR,benign,BENIGN-00209
+2026-08-10 10:23:20,mei.h,SRV-WEB-536,10.26.253.217,data_access,low,SIEM,benign,BENIGN-00082
+2026-08-07 12:21:02,mei.o,WIN10-169,10.15.89.105,outbound_connection,high,Proxy,insider,INC-0023
+2026-08-04 04:32:20,linda.v,WIN10-073,10.1.141.20,data_access,medium,SIEM,benign,BENIGN-00567
+2026-08-28 07:00:59,barbara.y,WIN10-675,10.9.209.68,privilege_escalation,low,EDR,benign,BENIGN-00284
+2026-08-22 03:31:11,fatima.u,WIN10-603,10.8.95.184,phishing_email,low,Email Gateway,benign,BENIGN-00592
+2026-08-15 10:03:29,wei.g,WIN10-603,10.20.20.202,malware_detected,high,EDR,benign,BENIGN-00674
+2026-08-31 18:30:57,carlos.x,WIN10-430,10.24.94.43,credential_dump,high,EDR,compromised_account,INC-0014
+2026-08-02 09:49:22,jennifer.z,SRV-WEB-460,10.11.99.46,powershell_exec,low,EDR,benign,BENIGN-00635
+2026-08-07 05:47:03,barbara.g,WIN10-454,10.27.102.110,login_anomaly,medium,SIEM,insider,INC-S-00017
+2026-08-05 00:41:10,richard.u,SRV-FILE-958,10.24.18.71,outbound_connection,low,Proxy,benign,BENIGN-00408
+2026-08-16 07:49:41,mei.o,SRV-WEB-244,10.23.33.24,login_anomaly,medium,SIEM,insider,INC-S-00001
+2026-08-23 22:15:58,michael.w,LNX-APP-544,10.28.36.119,malware_detected,low,EDR,benign,BENIGN-00333
+2026-08-08 04:36:46,mei.o,LNX-APP-191,10.16.103.217,powershell_exec,high,EDR,benign,BENIGN-00380
+2026-08-25 12:26:12,elena.a,WIN10-235,10.26.104.190,powershell_exec,medium,EDR,benign,BENIGN-00114
+2026-08-18 14:01:38,sofia.a,WIN10-255,10.21.251.83,malware_detected,low,EDR,benign,BENIGN-00632
+2026-08-05 11:00:13,fatima.h,SRV-DB-124,103.147.62.44,phishing_email,low,Email Gateway,benign,BENIGN-00365
+2026-08-07 09:14:36,robert.u,LNX-APP-544,172.205.117.247,powershell_exec,critical,EDR,benign,BENIGN-00588
+2026-08-23 08:20:04,jessica.r,SRV-WEB-460,10.14.11.68,privilege_escalation,medium,EDR,benign,BENIGN-00102
+2026-08-04 21:09:23,david.d,WIN11-286,10.6.208.53,outbound_connection,medium,Proxy,benign,BENIGN-00029
+2026-08-25 00:57:50,carlos.z,WIN11-171,10.4.53.78,outbound_connection,critical,Proxy,benign,BENIGN-00471
+2026-08-30 05:57:58,jennifer.w,SRV-DB-885,10.20.26.198,phishing_email,medium,Email Gateway,phishing,INC-S-00064
+2026-08-09 02:20:02,charles.n,SRV-DB-256,10.18.168.224,credential_dump,medium,EDR,benign,BENIGN-00206
+2026-08-26 05:15:02,arjun.l,WIN11-286,10.7.165.76,privilege_escalation,low,AD,benign,BENIGN-00077
+2026-08-13 16:57:47,sofia.k,WIN11-097,78.26.63.169,phishing_email,low,Email Gateway,benign,BENIGN-00081
+2026-08-30 09:14:02,karen.c,SRV-FILE-499,10.30.51.35,phishing_email,low,Email Gateway,benign,BENIGN-00068
+2026-08-27 09:45:16,sarah.d,WIN10-675,103.120.132.21,privilege_escalation,high,EDR,benign,BENIGN-00389
+2026-08-07 04:38:31,michael.h,WIN11-059,10.3.103.210,phishing_email,low,Email Gateway,benign,BENIGN-00372
+2026-08-23 05:09:42,mei.p,LNX-APP-485,10.29.5.88,outbound_connection,low,Firewall,benign,BENIGN-00620
+2026-08-30 11:48:38,william.q,WIN10-235,10.30.92.192,malware_detected,medium,EDR,benign,BENIGN-00257
+2026-08-03 07:24:26,fatima.u,WIN10-610,10.25.50.38,powershell_exec,medium,EDR,malware,INC-0008
+2026-08-11 23:01:22,jennifer.i,WIN11-059,10.8.94.48,login_anomaly,medium,AD,benign,BENIGN-00461
+2026-08-29 06:38:35,thomas.p,WIN10-255,10.27.172.190,phishing_email,high,Email Gateway,benign,BENIGN-00174
+2026-08-09 19:58:07,yusuf.w,LNX-APP-946,10.13.254.46,phishing_email,medium,Email Gateway,benign,BENIGN-00343
+2026-08-15 02:18:01,carlos.f,LNX-APP-016,10.14.92.195,phishing_email,low,Email Gateway,phishing,INC-S-00163
+2026-08-09 19:29:43,john.c,LNX-APP-485,10.17.67.34,powershell_exec,medium,EDR,benign,BENIGN-00178
+2026-08-18 05:16:22,john.s,SRV-DB-219,10.12.166.21,data_access,high,DLP,insider,INC-0027
+2026-08-08 10:44:02,susan.g,SRV-WEB-460,10.23.213.156,phishing_email,medium,Email Gateway,benign,BENIGN-00614
+2026-08-24 03:18:41,carlos.z,LNX-APP-883,10.25.106.221,outbound_connection,high,Proxy,benign,BENIGN-00385
+2026-08-22 20:11:56,sarah.d,MACOS-686,10.0.85.207,malware_detected,low,EDR,benign,BENIGN-00055
+2026-08-17 01:17:38,carlos.u,SRV-FILE-647,10.13.188.207,privilege_escalation,high,EDR,benign,BENIGN-00562
+2026-08-23 16:42:39,jennifer.z,SRV-FILE-958,10.15.198.189,malware_detected,high,EDR,benign,BENIGN-00254
+2026-08-25 05:07:19,michael.w,SRV-DB-515,10.7.245.35,powershell_exec,medium,EDR,phishing,INC-S-00120
+2026-08-24 10:19:08,john.r,WIN10-255,10.17.63.25,login_anomaly,low,AD,benign,BENIGN-00072
+2026-08-26 01:04:53,linda.y,SRV-FILE-556,10.14.144.191,data_access,medium,DLP,benign,BENIGN-00025
+2026-08-16 23:20:15,john.c,WIN10-413,10.17.166.92,powershell_exec,high,EDR,phishing,INC-S-00142
+2026-08-16 07:51:48,fatima.h,SRV-DB-220,103.38.214.16,data_access,low,DLP,benign,BENIGN-00173
+2026-08-08 02:48:24,william.h,SRV-FILE-647,10.17.85.100,data_access,medium,SIEM,benign,BENIGN-00599
+2026-08-09 00:10:30,richard.u,WIN10-594,10.13.210.42,credential_dump,medium,EDR,benign,BENIGN-00608
+2026-08-19 06:41:46,richard.i,LNX-APP-191,10.2.113.242,data_access,high,SIEM,phishing,INC-0029
+2026-08-10 11:39:24,mary.d,LNX-APP-417,10.12.220.176,credential_dump,medium,EDR,benign,BENIGN-00245
+2026-08-07 07:25:08,carlos.e,SRV-WEB-591,103.246.244.20,powershell_exec,low,EDR,benign,BENIGN-00454
+2026-08-29 18:13:04,jennifer.i,LNX-APP-016,10.10.20.226,credential_dump,high,EDR,benign,BENIGN-00643
+2026-08-03 14:19:59,richard.m,SRV-FILE-554,10.28.139.145,login_anomaly,low,SIEM,compromised_account,INC-S-00156
+2026-08-22 02:22:01,arjun.w,SRV-WEB-536,10.13.248.43,login_anomaly,medium,SIEM,benign,BENIGN-00093
+2026-08-03 18:38:49,fatima.h,WIN11-097,10.29.202.150,credential_dump,low,EDR,benign,BENIGN-00669
+2026-08-19 04:38:03,linda.e,WIN10-928,10.26.171.207,data_access,medium,SIEM,insider,INC-S-00033
+2026-08-28 19:19:34,elena.a,WIN10-052,10.18.77.104,data_access,medium,SIEM,insider,INC-0007
+2026-08-29 20:56:10,elizabeth.h,LNX-APP-016,10.2.232.29,phishing_email,medium,Email Gateway,benign,BENIGN-00146
+2026-08-22 11:44:11,elizabeth.h,WIN10-603,10.17.219.14,login_anomaly,low,AD,benign,BENIGN-00655
+2026-08-30 01:20:19,priya.x,SRV-DB-219,10.9.99.158,privilege_escalation,low,EDR,benign,BENIGN-00378
+2026-08-31 10:04:20,elizabeth.c,WIN10-599,45.72.126.232,data_access,low,DLP,benign,BENIGN-00637
+2026-08-22 00:24:52,yusuf.r,SRV-FILE-803,10.10.216.96,phishing_email,medium,Email Gateway,benign,BENIGN-00295
+2026-08-11 03:17:35,carlos.z,LNX-APP-191,10.26.4.179,privilege_escalation,high,EDR,benign,BENIGN-00574
+2026-08-24 06:40:25,karen.k,SRV-FILE-499,61.85.41.188,outbound_connection,high,Firewall,malware,INC-S-00115
+2026-08-31 12:32:50,michael.y,SRV-DB-515,10.2.83.15,outbound_connection,medium,Firewall,benign,BENIGN-00466
+2026-08-16 10:34:52,sofia.b,MACOS-059,10.10.203.15,powershell_exec,medium,EDR,compromised_account,INC-0028
+2026-08-18 01:31:12,william.e,SRV-DB-249,10.15.82.62,credential_dump,critical,EDR,benign,BENIGN-00157
+2026-08-07 17:23:35,elena.a,LNX-APP-016,10.14.160.204,malware_detected,medium,EDR,benign,BENIGN-00349
+2026-08-23 06:22:28,david.g,LNX-APP-191,172.173.26.102,phishing_email,medium,Email Gateway,benign,BENIGN-00497
+2026-08-06 08:31:31,arjun.p,SRV-DB-220,10.18.17.77,malware_detected,low,EDR,benign,BENIGN-00630
+2026-08-06 03:34:16,carlos.u,WIN10-413,10.17.126.113,powershell_exec,high,EDR,phishing,INC-0022
+2026-08-18 17:59:29,john.c,SRV-DB-515,10.11.209.223,malware_detected,medium,EDR,benign,BENIGN-00210
+2026-08-13 12:31:25,mei.d,LNX-APP-544,10.9.198.205,privilege_escalation,high,EDR,insider,INC-0030
+2026-08-03 04:43:26,fatima.u,WIN10-610,10.25.50.38,malware_detected,high,EDR,malware,INC-0008
+2026-08-26 19:07:50,susan.k,WIN11-097,10.5.159.169,privilege_escalation,low,AD,benign,BENIGN-00217
+2026-08-12 23:58:41,sarah.r,MACOS-686,10.27.177.37,login_anomaly,low,AD,benign,BENIGN-00485
+2026-08-19 03:58:06,elena.r,WIN11-059,10.25.234.228,login_anomaly,low,AD,benign,BENIGN-00355
+2026-08-15 06:19:12,wei.v,LNX-APP-544,10.27.167.85,powershell_exec,medium,EDR,phishing,INC-S-00068
+2026-08-28 07:16:56,mary.v,MACOS-686,10.2.49.245,malware_detected,medium,EDR,benign,BENIGN-00617
+2026-08-15 07:52:13,yusuf.z,WIN10-073,10.3.44.55,data_access,low,SIEM,benign,BENIGN-00528
+2026-08-14 02:03:42,thomas.p,SRV-WEB-460,10.3.249.197,malware_detected,low,EDR,benign,BENIGN-00274
+2026-08-04 15:13:35,arjun.d,WIN10-347,10.1.22.19,privilege_escalation,low,AD,benign,BENIGN-00188
+2026-08-09 09:35:04,charles.g,WIN10-430,10.3.42.232,credential_dump,medium,EDR,benign,BENIGN-00576
+2026-08-18 00:16:49,priya.n,LNX-APP-016,141.69.38.180,privilege_escalation,high,EDR,benign,BENIGN-00412
+2026-08-12 08:50:24,wei.v,WIN11-171,10.23.25.243,privilege_escalation,high,EDR,insider,INC-0020
+2026-08-25 13:44:49,william.e,WIN10-692,141.68.98.168,malware_detected,medium,EDR,benign,BENIGN-00110
+2026-08-23 15:10:48,linda.e,SRV-DB-515,10.21.187.101,phishing_email,medium,Email Gateway,benign,BENIGN-00304
+2026-08-04 01:00:38,thomas.p,SRV-WEB-226,10.25.37.75,outbound_connection,high,Firewall,insider,INC-S-00108
+2026-08-07 22:07:46,william.q,SRV-WEB-083,10.21.251.175,powershell_exec,low,EDR,benign,BENIGN-00557
+2026-08-19 09:21:34,mei.o,LNX-APP-016,61.188.248.118,phishing_email,high,Email Gateway,benign,BENIGN-00034
+2026-08-30 05:43:39,wei.c,SRV-WEB-536,10.0.219.226,privilege_escalation,critical,EDR,insider,INC-0011
+2026-08-15 23:33:23,michael.y,SRV-WEB-226,10.13.5.42,credential_dump,medium,EDR,benign,BENIGN-00581
+2026-08-18 11:56:25,yusuf.x,SRV-DB-885,10.13.6.46,data_access,high,DLP,phishing,INC-0004
+2026-08-28 11:50:19,karen.u,WIN10-692,10.30.28.82,login_anomaly,low,AD,benign,BENIGN-00529
+2026-08-28 08:51:51,carlos.e,SRV-DB-124,10.24.100.19,phishing_email,medium,Email Gateway,benign,BENIGN-00273
+2026-08-08 23:16:43,patricia.l,WIN10-610,10.18.61.184,login_anomaly,medium,SIEM,insider,INC-S-00061
+2026-08-16 12:06:59,barbara.y,SRV-WEB-136,118.221.70.67,credential_dump,low,EDR,benign,BENIGN-00124
+2026-08-09 19:16:23,thomas.d,WIN10-881,10.21.180.14,phishing_email,low,Email Gateway,benign,BENIGN-00228
+2026-08-23 03:05:18,elena.r,WIN10-692,10.28.249.190,powershell_exec,medium,EDR,benign,BENIGN-00187
+2026-08-21 20:45:53,richard.v,MACOS-073,10.5.126.36,phishing_email,low,Email Gateway,benign,BENIGN-00163
+2026-08-05 16:12:47,richard.v,SRV-DB-272,10.14.169.240,powershell_exec,medium,EDR,benign,BENIGN-00407
+2026-08-08 00:13:46,barbara.y,SRV-FILE-647,10.24.24.201,login_anomaly,high,AD,benign,BENIGN-00488
+2026-08-29 12:21:04,yusuf.w,LNX-APP-485,10.7.54.231,data_access,high,SIEM,compromised_account,INC-S-00155
+2026-08-08 05:25:01,sofia.b,WIN10-610,10.7.192.148,privilege_escalation,low,AD,benign,BENIGN-00244
+2026-08-19 05:36:46,richard.i,LNX-APP-191,10.2.113.242,privilege_escalation,critical,EDR,phishing,INC-0029
+2026-08-11 21:00:44,robert.u,WIN10-169,10.23.188.172,privilege_escalation,high,AD,malware,INC-0006
+2026-08-24 01:47:01,elena.a,MACOS-686,10.30.217.211,privilege_escalation,high,EDR,insider,INC-S-00011
+2026-08-06 21:59:49,john.g,WIN10-413,10.28.158.159,credential_dump,low,EDR,benign,BENIGN-00650
+2026-08-16 06:44:12,michael.h,SRV-FILE-056,10.30.87.249,outbound_connection,medium,Firewall,benign,BENIGN-00168
+2026-08-05 17:29:06,richard.i,SRV-FILE-803,10.14.80.238,privilege_escalation,high,AD,phishing,INC-0001
+2026-08-23 19:33:53,priya.x,WIN10-766,91.133.92.160,outbound_connection,medium,Proxy,compromised_account,INC-0024
+2026-08-06 10:15:16,john.m,SRV-FILE-670,10.24.59.110,login_anomaly,medium,AD,benign,BENIGN-00039
+2026-08-04 03:08:50,karen.u,LNX-APP-564,78.183.71.24,outbound_connection,high,Proxy,benign,BENIGN-00065
+2026-08-22 12:59:13,jennifer.w,WIN10-692,10.2.129.166,phishing_email,medium,Email Gateway,phishing,INC-0015
+2026-08-31 19:01:21,priya.n,SRV-FILE-803,10.30.143.178,credential_dump,medium,EDR,benign,BENIGN-00088
+2026-08-06 20:44:45,carlos.r,WIN10-052,10.18.150.150,outbound_connection,high,Firewall,benign,BENIGN-00109
+2026-08-31 06:53:53,wei.r,MACOS-686,10.25.175.78,malware_detected,low,EDR,benign,BENIGN-00070
+2026-08-15 19:32:17,ahmed.l,SRV-FILE-647,61.238.251.86,phishing_email,medium,Email Gateway,phishing,INC-S-00114
+2026-08-26 00:40:53,carlos.z,SRV-DB-293,10.30.143.130,credential_dump,low,EDR,benign,BENIGN-00023
+2026-08-13 20:50:21,james.x,WIN10-169,10.27.61.15,powershell_exec,low,EDR,benign,BENIGN-00052
+2026-08-15 15:18:36,david.y,LNX-APP-411,10.7.7.230,malware_detected,low,EDR,benign,BENIGN-00080
+2026-08-06 02:09:23,joseph.e,SRV-FILE-803,10.7.70.166,phishing_email,low,Email Gateway,benign,BENIGN-00045
+2026-08-03 19:31:52,elena.s,LNX-APP-241,10.5.31.94,privilege_escalation,low,AD,benign,BENIGN-00140
+2026-08-22 23:24:19,michael.w,SRV-DB-256,10.5.230.159,outbound_connection,medium,Firewall,benign,BENIGN-00691
+2026-08-26 22:43:49,karen.u,LNX-APP-485,10.20.49.83,credential_dump,low,EDR,benign,BENIGN-00185
+2026-08-09 09:33:09,karen.c,SRV-WEB-083,10.9.177.150,credential_dump,medium,EDR,benign,BENIGN-00198
+2026-08-23 11:36:54,william.h,MACOS-686,10.10.218.97,outbound_connection,medium,Firewall,benign,BENIGN-00505
+2026-08-11 17:22:41,susan.b,SRV-WEB-609,10.12.103.151,malware_detected,medium,EDR,benign,BENIGN-00233
+2026-08-04 12:04:28,sarah.n,LNX-APP-564,10.29.172.94,phishing_email,low,Email Gateway,benign,BENIGN-00448
+2026-08-30 06:15:37,arjun.l,WIN10-347,10.4.67.94,powershell_exec,low,EDR,benign,BENIGN-00299
+2026-08-14 16:12:43,michael.h,SRV-DB-293,10.12.147.2,data_access,low,DLP,benign,BENIGN-00235
+2026-08-16 16:48:57,patricia.v,WIN10-881,10.8.32.161,login_anomaly,low,AD,phishing,INC-S-00085
+2026-08-04 19:47:22,linda.x,SRV-WEB-678,10.22.53.157,phishing_email,low,Email Gateway,benign,BENIGN-00346
+2026-08-15 08:27:14,fatima.l,WIN10-635,10.22.73.61,data_access,medium,DLP,phishing,INC-0010
+2026-08-15 19:26:43,karen.c,WIN10-255,45.186.8.252,phishing_email,medium,Email Gateway,benign,BENIGN-00297
+2026-08-18 20:22:03,fatima.d,MACOS-223,10.19.53.184,privilege_escalation,critical,EDR,phishing,INC-0002
+2026-08-11 22:16:29,sofia.a,WIN10-454,10.22.154.181,outbound_connection,high,Firewall,compromised_account,INC-S-00141
+2026-08-14 00:55:16,thomas.t,WIN11-171,10.8.225.116,data_access,medium,SIEM,insider,INC-0016
+2026-08-05 23:08:54,patricia.v,SRV-FILE-348,10.17.2.29,privilege_escalation,critical,EDR,compromised_account,INC-0003
+2026-08-28 18:58:12,yusuf.z,SRV-FILE-598,10.15.62.117,privilege_escalation,critical,EDR,compromised_account,INC-0025
+2026-08-05 09:19:58,jennifer.z,SRV-DB-003,10.7.25.73,phishing_email,high,Email Gateway,benign,BENIGN-00197
+2026-08-23 18:54:49,fatima.d,SRV-DB-124,10.13.3.74,credential_dump,low,EDR,benign,BENIGN-00400
+2026-08-11 19:25:33,priya.n,SRV-FILE-101,10.23.122.55,privilege_escalation,critical,AD,phishing,INC-S-00109
+2026-08-04 23:36:55,carlos.e,SRV-WEB-136,10.24.42.112,powershell_exec,low,EDR,benign,BENIGN-00595
+2026-08-28 22:45:34,elena.a,WIN10-052,10.18.77.104,privilege_escalation,critical,AD,insider,INC-0007
+2026-08-20 07:19:59,wei.v,SRV-DB-885,10.9.108.228,credential_dump,medium,EDR,benign,BENIGN-00670
+2026-08-25 21:49:52,linda.v,SRV-DB-293,141.126.142.195,phishing_email,low,Email Gateway,phishing,INC-0017
+2026-08-29 10:16:29,carlos.e,SRV-WEB-253,10.30.103.118,privilege_escalation,high,EDR,phishing,INC-S-00152
+2026-08-21 16:27:02,arjun.l,SRV-WEB-136,10.25.184.11,login_anomaly,low,SIEM,benign,BENIGN-00419
+2026-08-28 03:29:37,priya.n,SRV-DB-124,10.13.215.161,credential_dump,low,EDR,benign,BENIGN-00575
+2026-08-11 22:47:32,fatima.u,SRV-FILE-556,10.25.160.151,privilege_escalation,high,EDR,phishing,INC-0021
+2026-08-18 03:03:38,karen.i,MACOS-073,10.0.242.102,data_access,high,SIEM,benign,BENIGN-00001
+2026-08-24 17:21:29,fatima.d,SRV-DB-249,10.29.86.225,privilege_escalation,low,AD,benign,BENIGN-00549
+2026-08-29 09:40:49,karen.k,WIN10-949,10.24.148.115,credential_dump,critical,EDR,malware,INC-S-00039
+2026-08-26 13:31:34,jessica.r,LNX-APP-417,10.29.23.114,powershell_exec,low,EDR,benign,BENIGN-00359
+2026-08-04 01:12:16,elena.m,SRV-DB-272,10.9.141.126,privilege_escalation,high,AD,benign,BENIGN-00473
+2026-08-02 16:44:11,yusuf.s,WIN11-433,10.22.166.34,credential_dump,low,EDR,benign,BENIGN-00421
+2026-08-10 12:02:40,barbara.g,WIN10-928,10.30.151.226,powershell_exec,high,EDR,phishing,INC-S-00134
+2026-08-31 08:41:57,elena.m,LNX-APP-016,172.17.211.103,malware_detected,high,EDR,benign,BENIGN-00689
+2026-08-31 19:51:12,elena.s,WIN10-413,10.20.136.208,credential_dump,high,EDR,benign,BENIGN-00520
+2026-08-22 18:00:13,jennifer.w,WIN10-692,10.10.3.218,powershell_exec,medium,EDR,phishing,INC-0015
+2026-08-29 12:53:15,elizabeth.h,SRV-WEB-244,10.11.98.244,malware_detected,high,EDR,malware,INC-S-00074
+2026-08-20 15:29:38,carlos.r,WIN10-255,10.2.134.182,powershell_exec,medium,EDR,benign,BENIGN-00336
+2026-08-13 13:42:29,mei.p,SRV-WEB-083,10.7.27.122,login_anomaly,critical,AD,benign,BENIGN-00645
+2026-08-18 20:39:15,carlos.x,WIN10-594,10.17.201.166,powershell_exec,high,EDR,benign,BENIGN-00281
+2026-08-02 02:33:33,robert.v,WIN10-255,10.24.168.57,phishing_email,low,Email Gateway,benign,BENIGN-00162
+2026-08-11 15:04:44,karen.c,WIN10-692,185.196.139.97,outbound_connection,high,Firewall,phishing,INC-0026
+2026-08-29 08:38:48,yusuf.x,SRV-DB-272,10.12.153.249,malware_detected,medium,EDR,benign,BENIGN-00215
+2026-08-08 01:15:35,karen.o,SRV-WEB-253,61.183.216.133,outbound_connection,high,Firewall,compromised_account,INC-S-00055
+2026-08-23 04:07:15,joseph.e,SRV-DB-249,10.7.201.57,phishing_email,low,Email Gateway,benign,BENIGN-00199
+2026-08-21 18:51:44,wei.c,SRV-WEB-236,141.55.131.59,privilege_escalation,low,AD,benign,BENIGN-00493
+2026-08-07 11:03:39,joseph.u,SRV-WEB-236,185.125.117.127,login_anomaly,high,AD,benign,BENIGN-00554
+2026-08-09 06:12:09,yusuf.r,LNX-APP-883,10.0.65.56,login_anomaly,medium,AD,insider,INC-S-00059
+2026-08-30 17:27:49,elizabeth.n,SRV-FILE-958,10.7.228.238,data_access,high,DLP,benign,BENIGN-00441
+2026-08-25 14:08:38,carlos.u,SRV-WEB-253,10.11.77.76,privilege_escalation,low,EDR,benign,BENIGN-00611
+2026-08-18 16:08:01,barbara.g,WIN10-255,10.3.207.231,data_access,medium,DLP,insider,INC-S-00043
+2026-08-11 23:25:07,john.c,MACOS-686,10.15.179.40,credential_dump,medium,EDR,benign,BENIGN-00142
+2026-08-14 22:08:54,thomas.t,WIN10-599,10.22.52.49,credential_dump,low,EDR,benign,BENIGN-00542
+2026-08-19 09:40:44,richard.m,WIN10-692,10.15.232.241,data_access,medium,DLP,benign,BENIGN-00127
+2026-08-13 03:53:15,carlos.r,SRV-FILE-348,10.20.201.57,credential_dump,high,EDR,benign,BENIGN-00238
+2026-08-29 03:19:07,james.c,MACOS-059,10.23.66.186,privilege_escalation,medium,EDR,benign,BENIGN-00128
+2026-08-18 11:35:30,carlos.i,SRV-DB-421,10.16.207.196,credential_dump,low,EDR,benign,BENIGN-00514
+2026-08-23 17:29:53,priya.x,WIN10-766,10.24.127.161,powershell_exec,high,EDR,compromised_account,INC-0024
+2026-08-05 13:01:06,richard.i,SRV-FILE-803,10.14.80.238,login_anomaly,low,SIEM,phishing,INC-0001
+2026-08-19 16:18:55,david.g,SRV-DB-220,10.1.13.166,credential_dump,low,EDR,benign,BENIGN-00432
+2026-08-15 22:28:07,karen.k,WIN10-255,10.1.14.95,powershell_exec,medium,EDR,compromised_account,INC-S-00041
+2026-08-28 02:21:13,elena.u,WIN10-052,10.24.103.196,phishing_email,low,Email Gateway,benign,BENIGN-00681
+2026-08-17 04:03:58,jennifer.o,WIN10-413,61.134.196.169,powershell_exec,low,EDR,benign,BENIGN-00362
+2026-08-21 16:47:01,mary.v,MACOS-059,10.5.78.245,phishing_email,low,Email Gateway,benign,BENIGN-00376
+2026-08-08 00:39:28,joseph.q,WIN10-603,10.29.222.15,powershell_exec,medium,EDR,malware,INC-S-00083
+2026-08-14 15:49:24,wei.v,SRV-DB-515,10.23.37.5,data_access,high,SIEM,compromised_account,INC-S-00144
+2026-08-07 12:24:38,arjun.w,SRV-DB-003,10.23.107.135,privilege_escalation,high,AD,malware,INC-S-00015
+2026-08-10 12:38:31,karen.i,WIN11-286,10.9.170.190,powershell_exec,low,EDR,benign,BENIGN-00053
+2026-08-08 07:11:51,carlos.r,MACOS-059,10.2.11.214,phishing_email,low,Email Gateway,benign,BENIGN-00287
+2026-08-11 10:02:39,john.m,WIN10-949,10.0.213.45,phishing_email,low,Email Gateway,benign,BENIGN-00352
+2026-08-11 11:17:44,karen.c,WIN10-692,10.14.238.83,data_access,medium,SIEM,phishing,INC-0026
+2026-08-06 06:42:16,carlos.u,WIN10-413,10.17.126.113,data_access,medium,SIEM,phishing,INC-0022
+2026-08-16 16:01:27,william.x,SRV-WEB-460,172.65.55.120,outbound_connection,medium,Proxy,benign,BENIGN-00122
+2026-08-19 22:59:46,barbara.y,MACOS-686,10.24.106.44,phishing_email,medium,Email Gateway,benign,BENIGN-00425
+2026-08-25 14:57:54,david.g,LNX-APP-870,10.22.146.215,data_access,low,SIEM,benign,BENIGN-00375
+2026-08-22 19:36:52,sofia.a,WIN10-675,10.7.35.206,privilege_escalation,low,AD,benign,BENIGN-00593
+2026-08-06 21:22:46,jennifer.i,LNX-APP-191,10.6.97.149,credential_dump,low,EDR,benign,BENIGN-00246
+2026-08-13 10:08:38,susan.g,LNX-APP-411,10.3.18.230,privilege_escalation,medium,AD,benign,BENIGN-00434
+2026-08-27 04:26:34,carlos.q,LNX-APP-191,10.7.130.192,outbound_connection,medium,Firewall,benign,BENIGN-00010
+2026-08-22 09:45:24,sofia.k,SRV-DB-123,10.24.164.251,data_access,high,SIEM,insider,INC-S-00127
+2026-08-17 13:04:50,yusuf.z,WIN10-599,10.30.117.238,outbound_connection,low,Proxy,benign,BENIGN-00463
+2026-08-31 05:50:43,thomas.p,SRV-DB-124,78.66.50.45,outbound_connection,medium,Firewall,phishing,INC-S-00038
+2026-08-06 06:34:31,sofia.b,SRV-DB-249,10.5.125.202,data_access,low,SIEM,benign,BENIGN-00134
+2026-08-06 03:44:49,jennifer.z,SRV-DB-885,10.18.106.48,data_access,high,DLP,compromised_account,INC-S-00062
+2026-08-27 03:41:31,susan.b,SRV-DB-256,10.14.2.52,login_anomaly,low,AD,benign,BENIGN-00231
+2026-08-12 07:44:24,wei.v,WIN11-171,10.23.25.243,data_access,medium,DLP,insider,INC-0020
+2026-08-16 13:58:59,karen.u,WIN11-059,10.3.152.165,privilege_escalation,low,AD,benign,BENIGN-00301
+2026-08-09 21:43:49,jessica.r,WIN10-610,10.0.216.67,powershell_exec,medium,EDR,benign,BENIGN-00477
+2026-08-06 07:51:24,william.h,WIN10-594,10.0.45.238,login_anomaly,medium,SIEM,benign,BENIGN-00427
+2026-08-22 06:38:28,jennifer.r,LNX-APP-883,10.6.109.198,credential_dump,low,EDR,benign,BENIGN-00679
+2026-08-07 07:26:02,mei.o,WIN10-169,10.10.82.172,data_access,high,SIEM,insider,INC-0023
+2026-08-16 11:23:52,sofia.b,MACOS-059,10.10.203.15,credential_dump,high,EDR,compromised_account,INC-0028
+2026-08-05 03:45:47,barbara.g,LNX-APP-417,10.28.217.178,powershell_exec,medium,EDR,benign,BENIGN-00647
+2026-08-17 04:44:30,arjun.c,WIN10-347,10.29.19.221,credential_dump,critical,EDR,compromised_account,INC-S-00034
+2026-08-23 02:29:36,james.r,WIN10-949,10.21.77.236,phishing_email,medium,Email Gateway,benign,BENIGN-00379
+2026-08-24 06:26:52,sarah.r,MACOS-073,10.18.91.173,outbound_connection,medium,Proxy,benign,BENIGN-00293
+2026-08-14 00:13:56,linda.e,WIN10-347,10.22.5.11,data_access,high,SIEM,benign,BENIGN-00317
+2026-08-29 09:18:14,karen.c,WIN10-675,10.22.92.20,data_access,medium,DLP,compromised_account,INC-S-00122
+2026-08-03 02:29:17,john.m,WIN10-675,91.214.0.194,outbound_connection,high,Proxy,malware,INC-S-00129
+2026-08-07 13:18:06,linda.e,WIN11-231,10.13.25.204,privilege_escalation,high,AD,phishing,INC-S-00019
+2026-08-17 14:58:29,sarah.d,SRV-DB-003,10.21.153.156,privilege_escalation,medium,AD,benign,BENIGN-00167
+2026-08-06 06:17:17,elena.u,SRV-DB-219,10.12.168.36,malware_detected,medium,EDR,benign,BENIGN-00320
+2026-08-12 22:32:42,david.y,WIN10-692,10.15.61.218,privilege_escalation,critical,EDR,phishing,INC-S-00136
+2026-08-22 04:39:46,john.s,SRV-WEB-136,10.26.116.103,data_access,medium,SIEM,insider,INC-S-00020
+2026-08-07 14:57:30,elena.r,LNX-APP-417,10.22.221.134,privilege_escalation,low,EDR,benign,BENIGN-00361
+2026-08-20 13:58:55,elizabeth.h,WIN10-169,10.12.160.82,login_anomaly,low,SIEM,benign,BENIGN-00382
+2026-08-19 21:36:13,yusuf.s,WIN10-599,10.24.141.32,data_access,low,DLP,benign,BENIGN-00693
+2026-08-03 07:48:15,mei.h,LNX-APP-544,10.9.207.189,privilege_escalation,low,EDR,benign,BENIGN-00393
+2026-08-21 21:15:04,richard.i,WIN10-255,10.23.83.23,credential_dump,low,EDR,benign,BENIGN-00615
+2026-08-16 12:10:27,carlos.f,SRV-FILE-056,141.132.12.174,privilege_escalation,low,EDR,benign,BENIGN-00071
+2026-08-03 11:26:26,fatima.u,WIN10-610,10.25.50.38,credential_dump,critical,EDR,malware,INC-0008
+2026-08-05 01:40:36,richard.l,MACOS-686,10.20.184.159,outbound_connection,medium,Firewall,benign,BENIGN-00190
+2026-08-29 04:34:55,wei.j,LNX-APP-241,185.158.64.175,data_access,high,DLP,benign,BENIGN-00640
+2026-08-28 02:15:11,richard.v,WIN10-881,10.29.120.194,privilege_escalation,high,EDR,phishing,INC-S-00121
+2026-08-02 05:02:35,robert.v,SRV-DB-293,78.231.193.138,data_access,critical,DLP,benign,BENIGN-00491
+2026-08-27 22:05:05,john.g,LNX-APP-804,10.20.78.128,credential_dump,critical,EDR,benign,BENIGN-00418
+2026-08-23 15:26:11,john.m,SRV-DB-256,10.28.151.162,outbound_connection,medium,Proxy,benign,BENIGN-00367
+2026-08-22 14:54:13,jennifer.w,WIN10-692,10.10.3.218,login_anomaly,medium,SIEM,phishing,INC-0015
+2026-08-19 08:53:29,joseph.u,LNX-APP-191,10.0.194.72,data_access,low,SIEM,benign,BENIGN-00636
+2026-08-29 11:31:03,carlos.f,WIN11-231,10.21.195.231,powershell_exec,high,EDR,benign,BENIGN-00406
+2026-08-25 06:40:44,karen.i,LNX-APP-870,10.4.236.5,outbound_connection,low,Proxy,benign,BENIGN-00483
+2026-08-08 19:06:48,priya.i,WIN11-231,10.8.219.212,privilege_escalation,high,EDR,benign,BENIGN-00201
+2026-08-06 01:39:15,carlos.z,SRV-FILE-101,10.7.232.220,outbound_connection,low,Proxy,benign,BENIGN-00222
+2026-08-07 14:22:23,charles.n,SRV-FILE-101,10.28.146.173,phishing_email,low,Email Gateway,benign,BENIGN-00057
+2026-08-07 11:28:23,thomas.t,SRV-DB-714,118.40.70.49,outbound_connection,medium,Proxy,insider,INC-S-00130
+2026-08-14 10:08:08,susan.b,WIN10-610,10.23.25.232,powershell_exec,medium,EDR,benign,BENIGN-00147
+2026-08-14 07:07:53,linda.o,SRV-WEB-591,10.26.139.122,powershell_exec,medium,EDR,phishing,INC-S-00067
+2026-08-10 08:14:47,carlos.r,SRV-WEB-609,10.0.247.84,privilege_escalation,critical,AD,insider,INC-S-00035
+2026-08-04 21:38:34,richard.m,WIN11-433,10.24.160.16,powershell_exec,low,EDR,benign,BENIGN-00280
+2026-08-17 11:19:54,karen.c,LNX-APP-870,10.1.75.6,privilege_escalation,low,EDR,benign,BENIGN-00095
+2026-08-22 06:00:00,joseph.e,WIN11-059,10.2.68.229,login_anomaly,high,AD,benign,BENIGN-00580
+2026-08-24 22:50:53,thomas.d,WIN10-635,10.14.34.206,privilege_escalation,critical,AD,insider,INC-0009
+2026-08-12 09:41:56,arjun.d,SRV-WEB-536,10.27.146.200,malware_detected,high,EDR,benign,BENIGN-00119
+2026-08-11 05:29:53,james.x,SRV-FILE-101,10.17.243.196,powershell_exec,medium,EDR,phishing,INC-0018
+2026-08-03 23:58:49,sarah.r,WIN11-231,141.14.78.135,data_access,low,DLP,benign,BENIGN-00303
+2026-08-03 12:50:57,michael.e,MACOS-223,103.181.219.81,privilege_escalation,low,EDR,benign,BENIGN-00357
+2026-08-11 13:53:57,david.y,WIN10-169,10.23.157.227,privilege_escalation,low,AD,benign,BENIGN-00016
+2026-08-26 14:54:19,sarah.d,LNX-APP-870,10.28.4.218,malware_detected,medium,EDR,benign,BENIGN-00202
+2026-08-30 01:28:59,mary.d,SRV-WEB-460,10.15.201.222,phishing_email,medium,Email Gateway,benign,BENIGN-00094
+2026-08-29 13:21:41,yusuf.s,WIN11-171,10.22.90.243,phishing_email,medium,Email Gateway,benign,BENIGN-00083
+2026-08-19 11:19:27,james.c,WIN10-235,10.18.233.196,privilege_escalation,low,EDR,benign,BENIGN-00660
+2026-08-05 16:24:58,fatima.h,SRV-WEB-460,10.14.59.68,phishing_email,low,Email Gateway,benign,BENIGN-00673
+2026-08-08 14:02:35,linda.o,SRV-DB-220,10.22.129.104,login_anomaly,medium,AD,benign,BENIGN-00115
+2026-08-05 15:45:18,joseph.q,SRV-DB-363,10.27.249.202,phishing_email,high,Email Gateway,benign,BENIGN-00515
+2026-08-04 04:43:47,carlos.r,WIN10-413,10.5.215.101,login_anomaly,low,SIEM,benign,BENIGN-00569
+2026-08-21 22:43:55,richard.l,WIN10-454,10.18.41.166,credential_dump,low,EDR,benign,BENIGN-00213
+2026-08-19 10:00:59,linda.b,SRV-FILE-647,10.17.12.5,outbound_connection,high,Proxy,benign,BENIGN-00585
+2026-08-05 18:46:06,richard.i,SRV-FILE-803,10.14.80.238,data_access,high,DLP,phishing,INC-0001
+2026-08-13 20:55:14,richard.u,SRV-WEB-253,10.13.250.163,outbound_connection,high,Firewall,benign,BENIGN-00665
+2026-08-12 10:38:51,charles.g,LNX-APP-411,10.2.191.136,login_anomaly,medium,SIEM,insider,INC-S-00027
+2026-08-11 01:39:27,sarah.r,WIN10-235,10.12.86.250,outbound_connection,high,Proxy,insider,INC-S-00069
+2026-08-06 11:07:26,susan.g,WIN10-603,10.17.137.104,powershell_exec,low,EDR,benign,BENIGN-00181
+2026-08-07 01:39:32,jennifer.o,WIN11-286,10.24.116.12,malware_detected,medium,EDR,benign,BENIGN-00433
+2026-08-28 05:22:10,karen.i,SRV-WEB-253,10.21.243.191,credential_dump,critical,EDR,malware,INC-S-00008
+2026-08-08 11:07:34,jennifer.i,SRV-WEB-253,78.98.198.209,powershell_exec,medium,EDR,benign,BENIGN-00042
+2026-08-11 06:32:53,james.x,SRV-FILE-101,10.17.243.196,privilege_escalation,critical,EDR,phishing,INC-0018
+2026-08-24 01:18:31,jennifer.l,WIN10-635,10.26.199.93,powershell_exec,low,EDR,benign,BENIGN-00605
+2026-08-15 11:09:56,david.y,SRV-WEB-226,10.4.216.192,data_access,high,SIEM,benign,BENIGN-00489
+2026-08-05 03:34:56,sarah.d,LNX-APP-883,10.25.169.158,data_access,low,SIEM,benign,BENIGN-00667
+2026-08-19 21:01:32,mei.d,WIN11-195,10.24.108.208,malware_detected,medium,EDR,benign,BENIGN-00564
+2026-08-13 06:28:01,linda.e,SRV-WEB-226,10.1.25.112,malware_detected,high,EDR,malware,INC-S-00159
+2026-08-30 14:36:10,yusuf.x,WIN11-171,10.28.115.118,login_anomaly,critical,AD,benign,BENIGN-00165
+2026-08-18 15:42:52,barbara.y,SRV-FILE-647,10.22.29.6,phishing_email,medium,Email Gateway,benign,BENIGN-00014
+2026-08-20 19:32:01,linda.o,SRV-FILE-556,10.1.237.98,data_access,low,SIEM,benign,BENIGN-00175
+2026-08-12 17:21:40,david.y,WIN11-231,10.25.247.157,login_anomaly,medium,AD,benign,BENIGN-00090
+2026-08-04 17:45:42,joseph.u,SRV-DB-714,10.17.55.194,credential_dump,high,EDR,compromised_account,INC-S-00132
+2026-08-02 04:59:07,yusuf.s,SRV-DB-123,10.0.155.122,login_anomaly,high,AD,benign,BENIGN-00633
+2026-08-10 23:28:37,karen.i,WIN10-413,10.27.180.104,login_anomaly,medium,SIEM,benign,BENIGN-00445
+2026-08-20 08:49:07,elizabeth.n,SRV-DB-220,10.20.99.213,outbound_connection,low,Firewall,benign,BENIGN-00267
+2026-08-31 18:51:51,elena.u,WIN10-073,10.27.143.250,data_access,medium,SIEM,phishing,INC-S-00025
+2026-08-06 19:18:49,james.r,SRV-FILE-101,10.18.12.102,credential_dump,medium,EDR,benign,BENIGN-00251
+2026-08-11 16:38:59,michael.y,SRV-DB-124,10.29.209.60,credential_dump,medium,EDR,benign,BENIGN-00310
+2026-08-06 03:00:39,susan.k,SRV-WEB-244,10.25.137.153,login_anomaly,low,AD,benign,BENIGN-00008
+2026-08-11 16:21:32,fatima.u,SRV-FILE-556,10.25.160.151,login_anomaly,low,AD,phishing,INC-0021
+2026-08-08 11:52:32,karen.i,WIN10-635,10.10.111.228,malware_detected,low,EDR,benign,BENIGN-00138
+2026-08-17 01:48:20,john.r,SRV-DB-885,10.6.7.63,data_access,medium,SIEM,benign,BENIGN-00523
+2026-08-03 11:16:24,sofia.k,SRV-FILE-554,10.26.137.85,login_anomaly,medium,AD,phishing,INC-0005
+2026-08-09 18:26:42,carlos.f,WIN10-610,10.16.87.194,data_access,low,SIEM,benign,BENIGN-00600
+2026-08-29 13:17:38,charles.n,SRV-WEB-253,10.9.184.84,privilege_escalation,high,EDR,insider,INC-S-00028
+2026-08-11 16:43:28,fatima.u,MACOS-223,10.15.50.156,powershell_exec,medium,EDR,benign,BENIGN-00144
+2026-08-05 04:27:41,michael.y,SRV-WEB-253,10.30.177.208,credential_dump,low,EDR,benign,BENIGN-00453
+2026-08-10 23:14:41,sarah.r,SRV-FILE-554,10.6.27.34,credential_dump,low,EDR,benign,BENIGN-00325
+2026-08-07 06:29:35,michael.e,WIN11-171,10.12.98.34,credential_dump,low,EDR,benign,BENIGN-00218
+2026-08-04 19:35:25,karen.u,SRV-WEB-083,10.5.80.163,powershell_exec,low,EDR,benign,BENIGN-00133
+2026-08-30 16:16:25,carlos.x,LNX-APP-564,78.27.106.234,powershell_exec,medium,EDR,benign,BENIGN-00152
+2026-08-13 20:04:44,richard.i,SRV-WEB-226,10.28.164.158,powershell_exec,critical,EDR,benign,BENIGN-00183
+2026-08-17 23:35:37,carlos.b,SRV-WEB-244,10.6.85.51,powershell_exec,low,EDR,benign,BENIGN-00675
+2026-08-08 14:58:38,jessica.r,SRV-WEB-591,10.10.77.83,powershell_exec,critical,EDR,benign,BENIGN-00087
+2026-08-27 05:28:49,john.g,WIN10-928,10.10.219.71,powershell_exec,medium,EDR,benign,BENIGN-00108
+2026-08-12 01:54:48,karen.c,WIN10-413,10.3.137.92,privilege_escalation,medium,AD,benign,BENIGN-00069
+2026-08-16 11:08:58,carlos.u,LNX-APP-544,10.30.31.115,phishing_email,medium,Email Gateway,benign,BENIGN-00602
+2026-08-08 20:42:43,james.r,SRV-WEB-253,45.142.223.143,privilege_escalation,low,EDR,benign,BENIGN-00193
+2026-08-27 10:26:21,yusuf.w,WIN10-766,10.20.245.16,data_access,medium,DLP,insider,INC-S-00147
+2026-08-09 05:08:19,karen.k,WIN10-169,10.25.122.77,malware_detected,critical,EDR,benign,BENIGN-00566
+2026-08-12 10:14:30,carlos.e,LNX-APP-946,10.28.33.122,outbound_connection,low,Proxy,benign,BENIGN-00606
+2026-08-23 11:38:28,wei.r,WIN10-635,10.11.241.8,credential_dump,low,EDR,benign,BENIGN-00594
+2026-08-12 11:32:29,linda.x,LNX-APP-485,10.26.77.20,malware_detected,critical,EDR,benign,BENIGN-00291
+2026-08-16 08:08:30,david.y,WIN11-097,10.2.197.159,outbound_connection,medium,Firewall,insider,INC-S-00161
+2026-08-26 07:05:04,jessica.r,SRV-WEB-591,10.21.150.177,credential_dump,low,EDR,benign,BENIGN-00011
+2026-08-16 23:02:43,william.h,SRV-DB-124,10.22.94.211,malware_detected,low,EDR,benign,BENIGN-00530
+2026-08-17 23:38:39,elizabeth.h,WIN11-059,10.9.232.155,outbound_connection,low,Firewall,benign,BENIGN-00321
+2026-08-25 14:32:47,jessica.a,SRV-FILE-670,91.88.242.197,phishing_email,low,Email Gateway,phishing,INC-S-00049
+2026-08-11 16:20:02,john.r,WIN10-073,141.2.9.137,outbound_connection,medium,Firewall,benign,BENIGN-00135
+2026-08-21 16:20:39,jessica.a,SRV-DB-885,61.120.78.41,outbound_connection,high,Firewall,phishing,INC-S-00119
+2026-08-22 16:27:39,carlos.e,SRV-FILE-958,10.9.114.155,phishing_email,low,Email Gateway,phishing,INC-S-00071
+2026-08-31 16:28:53,david.d,SRV-WEB-136,10.9.154.41,outbound_connection,high,Firewall,benign,BENIGN-00439
+2026-08-07 12:51:01,jennifer.r,SRV-DB-515,78.20.130.163,outbound_connection,medium,Proxy,phishing,INC-S-00037
+2026-08-24 05:26:45,michael.w,SRV-WEB-591,10.11.90.217,outbound_connection,medium,Proxy,benign,BENIGN-00019
+2026-08-17 15:53:27,jennifer.o,WIN10-413,10.4.10.40,login_anomaly,medium,SIEM,benign,BENIGN-00179
+2026-08-29 15:07:02,jennifer.o,LNX-APP-485,10.30.115.84,login_anomaly,low,AD,benign,BENIGN-00559
+2026-08-05 04:03:52,carlos.x,MACOS-073,10.18.78.43,malware_detected,high,EDR,benign,BENIGN-00137
+2026-08-25 10:55:40,carlos.q,WIN11-059,172.113.87.48,outbound_connection,medium,Proxy,malware,INC-0019
+2026-08-22 22:43:47,karen.o,SRV-DB-003,185.212.0.230,powershell_exec,medium,EDR,benign,BENIGN-00220
+2026-08-27 18:42:28,michael.w,WIN11-171,10.7.62.13,malware_detected,high,EDR,malware,INC-S-00110
+2026-08-18 22:28:14,barbara.g,LNX-APP-411,10.4.214.94,phishing_email,high,Email Gateway,benign,BENIGN-00509
+2026-08-13 00:37:24,linda.x,WIN10-692,10.11.123.139,outbound_connection,high,Proxy,benign,BENIGN-00263
+2026-08-27 10:47:33,karen.u,SRV-WEB-591,10.6.143.158,data_access,low,DLP,benign,BENIGN-00307
+2026-08-23 14:01:28,patricia.v,WIN10-610,10.13.123.186,privilege_escalation,low,EDR,benign,BENIGN-00652
+2026-08-13 18:17:32,richard.i,WIN10-413,10.2.21.141,phishing_email,medium,Email Gateway,benign,BENIGN-00696
+2026-08-13 06:46:25,mei.d,LNX-APP-544,10.9.198.205,login_anomaly,medium,AD,insider,INC-0030
+2026-08-23 14:58:39,richard.i,MACOS-059,10.16.51.126,phishing_email,high,Email Gateway,benign,BENIGN-00563
+2026-08-02 03:18:12,elena.s,SRV-DB-714,78.202.230.153,outbound_connection,high,Firewall,malware,INC-S-00013
+2026-08-12 07:23:28,john.s,LNX-APP-485,10.17.206.164,outbound_connection,low,Firewall,benign,BENIGN-00350
+2026-08-14 14:02:02,karen.i,SRV-FILE-958,10.12.71.193,outbound_connection,medium,Firewall,insider,INC-0013
+2026-08-04 03:02:15,robert.v,WIN10-347,10.1.75.52,malware_detected,high,EDR,malware,INC-S-00066
+2026-08-11 01:51:53,james.x,SRV-FILE-101,10.17.243.196,login_anomaly,medium,AD,phishing,INC-0018
+2026-08-08 11:58:57,john.m,SRV-DB-515,203.188.219.75,phishing_email,medium,Email Gateway,benign,BENIGN-00204
+2026-08-25 23:09:52,linda.v,SRV-DB-293,10.7.176.122,login_anomaly,low,SIEM,phishing,INC-0017
+2026-08-18 17:35:03,fatima.d,MACOS-223,10.19.53.184,powershell_exec,medium,EDR,phishing,INC-0002
+2026-08-08 12:45:24,sofia.b,WIN10-073,10.2.74.121,powershell_exec,low,EDR,benign,BENIGN-00345
+2026-08-08 08:13:27,michael.w,SRV-WEB-460,10.19.7.221,privilege_escalation,medium,AD,benign,BENIGN-00153
+2026-08-06 10:51:13,karen.c,WIN10-610,10.4.212.112,privilege_escalation,high,AD,malware,INC-S-00056
+2026-08-26 23:20:11,jennifer.l,SRV-FILE-598,10.8.243.220,privilege_escalation,critical,EDR,benign,BENIGN-00030
+2026-08-31 00:59:26,arjun.w,SRV-WEB-083,172.233.90.156,login_anomaly,medium,AD,benign,BENIGN-00547
+2026-08-17 12:15:57,charles.g,SRV-WEB-083,10.7.88.252,credential_dump,low,EDR,benign,BENIGN-00091
+2026-08-17 09:54:34,yusuf.s,SRV-DB-124,10.18.234.41,outbound_connection,low,Firewall,benign,BENIGN-00323
+2026-08-31 15:54:59,linda.e,WIN10-255,10.24.140.72,credential_dump,high,EDR,compromised_account,INC-S-00096
+2026-08-19 09:47:15,john.g,SRV-WEB-253,10.23.49.162,privilege_escalation,critical,EDR,benign,BENIGN-00437
+2026-08-05 09:40:18,karen.o,WIN10-169,10.23.199.208,credential_dump,medium,EDR,benign,BENIGN-00413
+2026-08-12 15:38:17,john.s,MACOS-059,10.21.114.90,login_anomaly,medium,SIEM,benign,BENIGN-00404
+2026-08-16 13:50:46,linda.v,SRV-DB-363,10.4.61.39,login_anomaly,high,SIEM,benign,BENIGN-00521
+2026-08-11 23:18:35,linda.y,SRV-DB-219,185.114.29.175,outbound_connection,high,Firewall,malware,INC-S-00123
+2026-08-27 00:58:47,elizabeth.c,SRV-DB-714,10.6.121.60,outbound_connection,medium,Proxy,benign,BENIGN-00678
+2026-08-31 13:58:57,carlos.x,WIN10-430,10.24.94.43,privilege_escalation,high,EDR,compromised_account,INC-0014
+2026-08-31 09:32:48,jennifer.w,LNX-APP-241,10.11.222.174,malware_detected,low,EDR,benign,BENIGN-00253
+2026-08-09 15:30:23,mary.d,SRV-FILE-598,10.28.76.218,data_access,medium,SIEM,compromised_account,INC-S-00079
+2026-08-25 04:16:26,richard.i,MACOS-059,10.5.251.36,credential_dump,critical,EDR,compromised_account,INC-S-00117
+2026-08-09 13:01:37,fatima.l,LNX-APP-883,10.16.235.53,privilege_escalation,medium,AD,benign,BENIGN-00051
+2026-08-23 14:32:24,karen.o,LNX-APP-870,10.7.132.175,data_access,low,SIEM,benign,BENIGN-00040
+2026-08-04 15:27:00,jennifer.l,SRV-WEB-236,185.175.108.71,data_access,low,SIEM,benign,BENIGN-00451
+2026-08-22 01:07:59,arjun.c,WIN10-235,10.10.107.39,privilege_escalation,high,AD,compromised_account,INC-S-00103
+2026-08-11 15:11:44,robert.u,WIN10-169,10.23.188.172,malware_detected,critical,EDR,malware,INC-0006
+2026-08-23 15:08:00,john.g,SRV-WEB-253,10.11.89.79,phishing_email,high,Email Gateway,benign,BENIGN-00469
+2026-08-21 19:24:20,joseph.q,WIN10-255,10.17.142.132,privilege_escalation,high,EDR,compromised_account,INC-S-00164
+2026-08-21 17:21:37,elena.r,SRV-DB-220,118.226.207.197,malware_detected,medium,EDR,benign,BENIGN-00533
+2026-08-26 22:55:25,charles.n,SRV-FILE-554,10.30.159.144,privilege_escalation,low,AD,benign,BENIGN-00364
+2026-08-03 05:39:26,thomas.i,WIN11-195,10.10.174.36,login_anomaly,medium,SIEM,benign,BENIGN-00125
+2026-08-14 12:30:53,john.g,MACOS-059,10.13.228.83,malware_detected,low,EDR,benign,BENIGN-00623
+2026-08-18 21:33:36,mary.h,SRV-FILE-556,10.17.234.150,powershell_exec,low,EDR,benign,BENIGN-00234
+2026-08-15 06:04:14,fatima.l,WIN10-635,10.22.73.61,powershell_exec,high,EDR,phishing,INC-0010
+2026-08-11 09:48:37,james.c,SRV-FILE-598,10.29.19.132,login_anomaly,medium,AD,benign,BENIGN-00479
+2026-08-17 04:02:29,mary.v,SRV-FILE-647,78.126.110.35,privilege_escalation,medium,AD,benign,BENIGN-00506
+2026-08-08 22:57:01,elena.a,SRV-WEB-136,185.80.198.84,privilege_escalation,medium,EDR,benign,BENIGN-00360
+2026-08-27 21:19:33,jennifer.r,SRV-DB-885,10.18.144.183,credential_dump,high,EDR,benign,BENIGN-00603
+2026-08-03 12:54:53,thomas.t,LNX-APP-883,10.27.166.195,outbound_connection,medium,Proxy,phishing,INC-S-00153
+2026-08-12 17:54:40,elizabeth.c,WIN10-430,185.84.234.157,outbound_connection,medium,Proxy,compromised_account,INC-S-00006
+2026-08-08 09:41:22,karen.i,LNX-APP-016,141.52.254.177,credential_dump,high,EDR,benign,BENIGN-00037
+2026-08-25 14:24:13,john.s,WIN11-097,10.20.201.84,phishing_email,medium,Email Gateway,benign,BENIGN-00457
+2026-08-14 01:36:46,linda.v,WIN10-635,10.19.24.111,phishing_email,medium,Email Gateway,benign,BENIGN-00155
+2026-08-30 07:14:58,michael.y,SRV-DB-124,10.21.4.97,credential_dump,high,EDR,benign,BENIGN-00313
+2026-08-21 17:44:38,linda.b,SRV-DB-885,10.24.3.178,credential_dump,high,EDR,benign,BENIGN-00443
+2026-08-04 20:55:44,karen.o,SRV-DB-363,10.9.82.74,outbound_connection,medium,Firewall,insider,INC-S-00112
+2026-08-24 18:56:53,thomas.d,WIN10-635,10.14.34.206,data_access,high,SIEM,insider,INC-0009
+2026-08-12 11:49:15,william.h,SRV-DB-885,10.26.243.78,credential_dump,medium,EDR,benign,BENIGN-00358
+2026-08-06 06:17:00,karen.c,SRV-DB-256,10.28.182.114,malware_detected,critical,EDR,malware,INC-S-00078
+2026-08-10 14:45:19,ahmed.c,SRV-WEB-083,91.207.33.88,credential_dump,high,EDR,benign,BENIGN-00085
+2026-08-18 23:54:43,mei.h,WIN10-603,172.58.216.28,phishing_email,medium,Email Gateway,phishing,INC-S-00024
+2026-08-08 16:25:34,jessica.r,WIN10-235,10.24.19.147,privilege_escalation,critical,AD,insider,INC-S-00075
+2026-08-07 12:41:19,jennifer.l,SRV-WEB-460,10.25.100.94,data_access,high,DLP,benign,BENIGN-00004
+2026-08-15 15:09:59,linda.e,SRV-DB-123,10.7.19.132,login_anomaly,low,AD,benign,BENIGN-00211
+2026-08-20 07:41:50,richard.u,SRV-FILE-670,10.19.1.13,outbound_connection,medium,Firewall,benign,BENIGN-00700
+2026-08-15 13:55:14,wei.c,WIN10-594,10.19.104.241,login_anomaly,low,SIEM,insider,INC-S-00009
+2026-08-13 23:24:16,thomas.t,WIN11-171,10.8.225.116,login_anomaly,medium,SIEM,insider,INC-0016
+2026-08-12 04:50:24,wei.v,WIN11-171,10.23.25.243,login_anomaly,low,SIEM,insider,INC-0020
+2026-08-09 23:03:59,mei.p,SRV-DB-363,61.65.82.178,credential_dump,medium,EDR,benign,BENIGN-00335
+2026-08-18 00:02:27,john.g,SRV-DB-885,10.14.192.69,powershell_exec,high,EDR,compromised_account,INC-S-00118
+2026-08-23 04:03:22,barbara.y,WIN11-195,10.18.123.145,credential_dump,high,EDR,benign,BENIGN-00476
+2026-08-05 13:54:09,john.r,SRV-DB-272,10.0.92.3,data_access,low,DLP,benign,BENIGN-00659
+2026-08-11 04:16:16,jennifer.w,WIN10-052,10.20.5.75,credential_dump,low,EDR,benign,BENIGN-00456
+2026-08-08 16:09:37,john.s,SRV-WEB-083,10.22.120.26,login_anomaly,low,AD,compromised_account,INC-S-00111
+2026-08-05 00:53:30,ahmed.c,SRV-DB-498,10.24.180.208,outbound_connection,medium,Firewall,benign,BENIGN-00017
+2026-08-19 09:13:46,richard.i,LNX-APP-191,10.21.139.41,outbound_connection,high,Firewall,phishing,INC-0029
+2026-08-22 08:46:08,karen.k,SRV-DB-123,10.1.69.93,phishing_email,medium,Email Gateway,benign,BENIGN-00478
+2026-08-15 21:06:51,james.c,WIN10-235,10.9.198.212,data_access,medium,SIEM,benign,BENIGN-00332
+2026-08-03 11:48:24,sofia.k,SRV-FILE-554,10.26.137.85,powershell_exec,high,EDR,phishing,INC-0005
+2026-08-19 13:20:20,linda.e,MACOS-073,10.3.222.53,login_anomaly,low,SIEM,benign,BENIGN-00589
+2026-08-18 06:26:25,yusuf.x,SRV-DB-885,10.25.45.226,phishing_email,medium,Email Gateway,phishing,INC-0004
+2026-08-05 02:30:56,thomas.t,MACOS-059,10.5.213.152,malware_detected,high,EDR,benign,BENIGN-00422
+2026-08-23 02:00:03,susan.b,LNX-APP-564,118.90.225.210,powershell_exec,low,EDR,benign,BENIGN-00302
+2026-08-10 06:43:27,elena.s,WIN10-255,10.15.222.124,powershell_exec,low,EDR,benign,BENIGN-00216
+2026-08-15 06:36:03,karen.o,SRV-WEB-226,10.17.239.240,privilege_escalation,critical,EDR,insider,INC-S-00107
+2026-08-09 10:49:20,david.y,SRV-DB-256,10.22.231.171,malware_detected,low,EDR,benign,BENIGN-00460
+2026-08-10 01:22:05,wei.g,LNX-APP-411,10.12.160.137,malware_detected,medium,EDR,benign,BENIGN-00356
+2026-08-07 04:10:41,priya.n,SRV-DB-421,10.10.104.93,outbound_connection,low,Proxy,benign,BENIGN-00224
+2026-08-19 00:20:23,karen.c,LNX-APP-191,10.7.177.18,phishing_email,low,Email Gateway,benign,BENIGN-00092
+2026-08-16 18:52:55,mary.v,WIN10-881,10.2.202.155,login_anomaly,high,AD,benign,BENIGN-00160
+2026-08-05 17:56:45,carlos.f,WIN11-059,10.29.55.188,malware_detected,medium,EDR,benign,BENIGN-00300
+2026-08-22 02:23:29,jennifer.i,SRV-DB-124,10.24.81.226,privilege_escalation,critical,AD,benign,BENIGN-00324
+2026-08-18 12:58:25,yusuf.x,SRV-DB-885,10.25.45.226,outbound_connection,medium,Proxy,phishing,INC-0004
+2026-08-07 23:29:17,michael.w,WIN10-235,61.230.25.36,outbound_connection,medium,Proxy,benign,BENIGN-00044
+2026-08-26 07:31:52,linda.v,SRV-DB-293,10.7.176.122,data_access,high,SIEM,phishing,INC-0017
+2026-08-18 16:36:57,linda.y,WIN10-881,103.54.191.190,outbound_connection,low,Firewall,benign,BENIGN-00194
+2026-08-19 11:45:55,priya.x,SRV-DB-256,10.6.142.99,data_access,high,DLP,benign,BENIGN-00383
+2026-08-21 15:57:56,john.m,MACOS-223,10.20.122.118,login_anomaly,high,SIEM,benign,BENIGN-00572
+2026-08-04 00:28:46,fatima.h,WIN10-766,10.11.138.211,powershell_exec,medium,EDR,benign,BENIGN-00026
+2026-08-12 12:37:07,arjun.l,LNX-APP-411,10.1.240.153,data_access,critical,DLP,benign,BENIGN-00405
+2026-08-16 14:46:27,michael.e,SRV-DB-249,10.27.80.212,powershell_exec,low,EDR,benign,BENIGN-00480
+2026-08-02 07:08:35,elizabeth.u,LNX-APP-804,10.16.140.83,malware_detected,low,EDR,benign,BENIGN-00351
+2026-08-27 13:17:32,john.c,SRV-WEB-083,10.26.32.172,data_access,medium,SIEM,phishing,INC-S-00048
+2026-08-20 14:18:30,wei.v,WIN10-073,10.15.18.59,powershell_exec,low,EDR,benign,BENIGN-00041
+2026-08-14 17:26:23,fatima.d,WIN10-692,10.3.116.95,login_anomaly,medium,SIEM,insider,INC-S-00005
+2026-08-23 15:29:23,arjun.l,LNX-APP-870,10.23.64.199,powershell_exec,low,EDR,benign,BENIGN-00411
+2026-08-29 16:22:19,charles.n,WIN10-603,10.19.61.130,phishing_email,low,Email Gateway,benign,BENIGN-00490
+2026-08-09 08:05:07,sarah.n,MACOS-223,10.29.151.190,login_anomaly,medium,SIEM,benign,BENIGN-00395
+2026-08-15 15:59:52,richard.v,WIN10-881,10.23.138.68,outbound_connection,low,Firewall,benign,BENIGN-00098
+2026-08-19 10:10:11,richard.u,WIN10-454,10.17.239.254,outbound_connection,low,Proxy,benign,BENIGN-00414
+2026-08-17 08:44:08,sarah.a,WIN11-231,103.110.155.218,credential_dump,low,EDR,benign,BENIGN-00347
+2026-08-19 21:59:55,john.r,WIN10-610,10.22.239.225,powershell_exec,medium,EDR,benign,BENIGN-00033
+2026-08-07 05:42:08,john.g,SRV-FILE-499,10.29.168.93,powershell_exec,low,EDR,benign,BENIGN-00315
+2026-08-23 14:19:53,priya.x,WIN10-766,10.24.127.161,login_anomaly,low,AD,compromised_account,INC-0024
+2026-08-24 22:00:09,barbara.y,WIN10-766,10.29.228.18,outbound_connection,medium,Proxy,phishing,INC-S-00126
+2026-08-31 14:28:28,robert.u,WIN10-235,10.14.134.134,privilege_escalation,high,AD,compromised_account,INC-S-00044
+2026-08-17 17:06:54,mary.d,WIN10-594,10.5.139.90,malware_detected,medium,EDR,benign,BENIGN-00283
+2026-08-07 03:53:02,david.y,LNX-APP-883,10.19.66.224,data_access,low,DLP,benign,BENIGN-00571
+2026-08-16 19:14:54,priya.i,SRV-FILE-670,10.29.176.17,data_access,low,DLP,benign,BENIGN-00511
+2026-08-26 06:04:24,charles.g,SRV-DB-219,10.0.45.108,data_access,low,SIEM,benign,BENIGN-00250
+2026-08-27 17:43:34,jennifer.w,WIN10-052,10.7.49.31,malware_detected,critical,EDR,benign,BENIGN-00430
+2026-08-28 22:58:12,yusuf.z,SRV-FILE-598,10.15.62.117,powershell_exec,medium,EDR,compromised_account,INC-0025
+2026-08-22 03:03:34,jessica.a,WIN11-231,10.3.169.59,privilege_escalation,high,EDR,benign,BENIGN-00212
+2026-08-15 04:03:55,david.d,LNX-APP-564,10.25.178.159,malware_detected,low,EDR,benign,BENIGN-00314
+2026-08-02 21:54:38,carlos.e,WIN10-073,10.25.28.20,privilege_escalation,medium,AD,benign,BENIGN-00486
+2026-08-21 09:35:17,david.d,WIN11-286,10.20.173.166,phishing_email,critical,Email Gateway,benign,BENIGN-00009
+2026-08-16 19:53:09,michael.e,LNX-APP-191,10.19.206.242,privilege_escalation,medium,AD,benign,BENIGN-00121
+2026-08-17 04:20:20,elizabeth.n,SRV-DB-220,10.29.147.185,outbound_connection,medium,Firewall,insider,INC-S-00092
+2026-08-30 08:45:46,mei.p,WIN10-928,10.12.223.68,outbound_connection,medium,Proxy,benign,BENIGN-00607
+2026-08-26 05:05:52,linda.v,SRV-DB-293,10.7.176.122,privilege_escalation,critical,AD,phishing,INC-0017
+2026-08-30 00:25:39,wei.c,WIN10-052,10.0.219.226,login_anomaly,medium,AD,insider,INC-0011
+2026-08-27 12:37:03,carlos.f,SRV-FILE-554,10.13.51.165,login_anomaly,low,AD,benign,BENIGN-00078
+2026-08-02 04:06:57,patricia.l,SRV-DB-272,10.4.245.52,malware_detected,medium,EDR,benign,BENIGN-00339
+2026-08-07 03:24:48,arjun.w,SRV-DB-003,10.28.172.13,credential_dump,low,EDR,benign,BENIGN-00366
+2026-08-26 06:22:37,mary.h,WIN10-430,45.180.43.22,outbound_connection,high,Proxy,insider,INC-S-00154
+2026-08-28 14:08:55,richard.v,SRV-FILE-348,10.11.107.155,privilege_escalation,medium,AD,benign,BENIGN-00535
+2026-08-23 03:13:24,barbara.y,SRV-WEB-136,10.22.151.111,outbound_connection,medium,Proxy,benign,BENIGN-00374
+2026-08-26 02:11:52,linda.v,SRV-DB-293,10.7.176.122,powershell_exec,medium,EDR,phishing,INC-0017
+2026-08-27 10:57:53,barbara.y,SRV-WEB-536,10.7.74.169,data_access,low,DLP,benign,BENIGN-00685
+2026-08-08 10:34:24,elena.r,WIN11-433,10.21.88.236,data_access,critical,DLP,benign,BENIGN-00170
+2026-08-18 09:21:18,priya.x,WIN11-433,10.23.230.155,powershell_exec,medium,EDR,malware,INC-S-00086
+2026-08-19 12:23:45,john.m,WIN11-059,10.15.39.14,login_anomaly,low,AD,benign,BENIGN-00099
+2026-08-06 06:21:54,patricia.v,SRV-FILE-348,10.17.2.29,data_access,medium,DLP,compromised_account,INC-0003
+2026-08-12 16:56:06,robert.u,WIN10-235,10.2.144.8,outbound_connection,low,Proxy,benign,BENIGN-00024
+2026-08-18 00:51:34,wei.v,WIN11-286,10.11.100.47,privilege_escalation,medium,AD,benign,BENIGN-00370
+2026-08-16 17:05:03,arjun.w,WIN10-430,118.6.86.210,data_access,low,SIEM,benign,BENIGN-00112
+2026-08-18 09:21:25,yusuf.x,SRV-DB-885,10.13.6.46,powershell_exec,medium,EDR,phishing,INC-0004
+2026-08-14 05:35:45,carlos.i,WIN10-928,10.21.98.73,powershell_exec,medium,EDR,compromised_account,INC-S-00046
+2026-08-22 02:36:24,sofia.b,SRV-WEB-591,10.18.161.69,data_access,low,DLP,benign,BENIGN-00032
+2026-08-21 03:27:08,karen.i,LNX-APP-883,10.16.34.164,phishing_email,low,Email Gateway,benign,BENIGN-00066
+2026-08-11 07:54:44,karen.c,WIN10-692,10.14.238.83,login_anomaly,medium,AD,phishing,INC-0026
+2026-08-29 18:35:16,priya.i,WIN11-059,10.8.166.54,login_anomaly,medium,AD,compromised_account,INC-S-00087
+2026-08-16 10:44:44,mary.v,SRV-FILE-647,10.7.241.250,privilege_escalation,critical,EDR,malware,INC-S-00106
+2026-08-19 00:12:46,richard.i,LNX-APP-191,10.2.113.242,login_anomaly,medium,SIEM,phishing,INC-0029
+2026-08-21 13:59:06,sofia.a,SRV-DB-293,10.29.235.208,phishing_email,low,Email Gateway,benign,BENIGN-00139
+2026-08-03 16:27:40,karen.l,SRV-FILE-647,10.28.218.183,data_access,medium,DLP,benign,BENIGN-00105
+2026-08-29 18:00:20,karen.k,SRV-DB-124,118.108.161.157,malware_detected,low,EDR,benign,BENIGN-00255
+2026-08-04 01:09:25,michael.w,SRV-FILE-647,10.5.26.117,phishing_email,medium,Email Gateway,benign,BENIGN-00657
+2026-08-25 05:41:05,michael.w,LNX-APP-946,10.2.79.102,data_access,high,SIEM,insider,INC-S-00081
+2026-08-25 22:55:48,karen.i,WIN10-599,185.207.1.156,login_anomaly,low,SIEM,benign,BENIGN-00340
+2026-08-20 02:55:42,william.e,WIN10-430,10.1.162.100,credential_dump,critical,EDR,compromised_account,INC-S-00063
+2026-08-03 13:47:09,david.y,SRV-DB-124,10.11.9.38,login_anomaly,medium,SIEM,benign,BENIGN-00342
+2026-08-28 16:18:24,john.g,SRV-FILE-670,78.162.186.11,credential_dump,medium,EDR,benign,BENIGN-00276
+2026-08-08 10:35:44,sofia.a,SRV-WEB-678,103.222.167.33,privilege_escalation,low,AD,benign,BENIGN-00031
+2026-08-18 09:30:46,joseph.e,SRV-DB-498,10.10.212.73,data_access,medium,DLP,benign,BENIGN-00035
+2026-08-08 14:33:31,sofia.b,LNX-APP-544,10.5.161.114,login_anomaly,low,AD,benign,BENIGN-00536
+2026-08-11 11:03:44,karen.c,WIN10-692,10.14.238.83,privilege_escalation,high,AD,phishing,INC-0026
+2026-08-21 07:04:02,wei.r,WIN10-692,10.11.156.71,malware_detected,medium,EDR,benign,BENIGN-00225
+2026-08-29 18:28:38,yusuf.s,WIN10-052,10.23.9.150,malware_detected,high,EDR,benign,BENIGN-00126
+2026-08-30 02:00:39,wei.c,WIN10-052,10.0.219.226,data_access,high,SIEM,insider,INC-0011
+2026-08-26 21:16:36,john.r,WIN11-097,10.0.120.168,outbound_connection,critical,Firewall,benign,BENIGN-00677
+2026-08-21 03:24:57,arjun.p,LNX-APP-485,185.9.108.136,outbound_connection,medium,Firewall,benign,BENIGN-00442
+2026-08-15 08:01:03,barbara.y,WIN10-430,10.14.161.78,credential_dump,high,EDR,malware,INC-S-00040
+2026-08-19 10:33:00,yusuf.r,WIN10-881,45.181.143.211,phishing_email,low,Email Gateway,benign,BENIGN-00381
+2026-08-14 19:17:59,yusuf.x,WIN10-169,10.28.67.157,phishing_email,medium,Email Gateway,benign,BENIGN-00551
+2026-08-05 17:31:10,mei.o,LNX-APP-016,10.18.46.107,data_access,low,SIEM,benign,BENIGN-00556
+2026-08-25 01:43:39,mei.p,SRV-WEB-136,10.18.205.136,powershell_exec,low,EDR,benign,BENIGN-00517
+2026-08-23 15:32:53,priya.x,WIN10-766,10.24.127.161,privilege_escalation,high,AD,compromised_account,INC-0024
+2026-08-08 19:04:41,james.r,SRV-FILE-556,10.26.183.147,phishing_email,medium,Email Gateway,benign,BENIGN-00604
+2026-08-29 13:59:24,yusuf.x,SRV-DB-123,10.30.254.85,login_anomaly,medium,SIEM,benign,BENIGN-00682
+2026-08-07 05:14:34,arjun.w,SRV-FILE-556,172.74.137.3,phishing_email,medium,Email Gateway,phishing,INC-S-00094
+2026-08-14 06:46:16,thomas.t,WIN11-171,91.213.239.23,outbound_connection,high,Proxy,insider,INC-0016
+2026-08-19 05:57:45,karen.i,WIN10-610,10.26.115.99,privilege_escalation,low,AD,benign,BENIGN-00386
+2026-08-20 14:25:17,michael.e,SRV-DB-219,10.24.254.106,privilege_escalation,low,AD,benign,BENIGN-00397
+2026-08-24 13:19:28,mary.d,SRV-WEB-136,10.26.164.45,powershell_exec,high,EDR,compromised_account,INC-S-00065
+2026-08-02 16:26:41,charles.i,LNX-APP-946,78.243.145.31,malware_detected,medium,EDR,benign,BENIGN-00541
+2026-08-21 00:25:21,wei.j,SRV-FILE-647,10.19.130.49,login_anomaly,low,AD,benign,BENIGN-00046
+2026-08-18 07:39:25,yusuf.x,SRV-DB-885,10.13.6.46,login_anomaly,low,AD,phishing,INC-0004
+2026-08-28 18:01:34,elena.a,WIN10-052,10.18.77.104,login_anomaly,low,SIEM,insider,INC-0007
+2026-08-24 05:06:32,carlos.z,SRV-DB-363,10.18.228.233,privilege_escalation,low,EDR,benign,BENIGN-00132
+2026-08-18 10:22:25,yusuf.x,SRV-DB-885,10.13.6.46,privilege_escalation,high,AD,phishing,INC-0004
+2026-08-07 05:36:02,mei.o,WIN10-169,10.10.82.172,login_anomaly,low,SIEM,insider,INC-0023
+2026-08-31 11:52:24,thomas.d,SRV-DB-220,10.30.7.37,data_access,high,DLP,phishing,INC-S-00073
+2026-08-21 06:31:54,john.y,SRV-DB-256,10.29.235.10,privilege_escalation,critical,EDR,compromised_account,INC-S-00113
+2026-08-17 10:51:02,sarah.a,WIN10-928,141.54.156.130,privilege_escalation,high,AD,benign,BENIGN-00631
+2026-08-13 07:01:32,mary.d,SRV-FILE-670,10.1.23.15,credential_dump,medium,EDR,benign,BENIGN-00084

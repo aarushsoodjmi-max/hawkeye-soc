@@ -1,0 +1,47 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: hawkeye
+      POSTGRES_USER: hawkeye
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-me-local-only}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hawkeye -d hawkeye"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    volumes:
+      - hawkeye_postgres:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  backend:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      ENV: development
+      DEMO_MODE: ${DEMO_MODE:-true}
+      AUTH_REQUIRED: ${AUTH_REQUIRED:-true}
+      DATABASE_URL: postgresql+psycopg://hawkeye:${POSTGRES_PASSWORD:-change-me-local-only}@postgres:5432/hawkeye
+      FRONTEND_ORIGINS: http://localhost:5173,http://localhost:3000
+      JWT_SECRET: ${JWT_SECRET:-hawkeye-local-demo-secret-change-me-0123456789abcdef}
+      AUTH_USERS_JSON: ${AUTH_USERS_JSON:-}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-3.5-flash}
+      GEMINI_TIMEOUT_SECONDS: ${GEMINI_TIMEOUT_SECONDS:-60}
+      GEMINI_API_BASE: ${GEMINI_API_BASE:-https://generativelanguage.googleapis.com/v1beta}
+      HAWKEYE_AI_SERVER_URL: ${HAWKEYE_AI_SERVER_URL:-http://host.docker.internal:8080}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)\""]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+volumes:
+  hawkeye_postgres:

@@ -1,0 +1,490 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #000000;
+  --color-surface: #000000;
+  --color-surface-dim: #000000;
+  --color-surface-bright: #0a0a0c;
+  --color-surface-container-lowest: #000000;
+  --color-surface-container-low: #020202;
+  --color-surface-container: #050505;
+  --color-surface-container-high: #0a0a0a;
+  --color-surface-container-highest: #121212;
+  --color-surface-variant: #0a0a0c;
+
+  --color-on-background: #ffffff;
+  --color-on-surface: #ffffff;
+  --color-on-surface-variant: #e5e7eb;
+
+  --color-outline: #7f1d1d;
+  --color-outline-variant: #450a0a;
+
+  --color-primary: #ef4444;
+  --color-primary-container: #dc2626;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #fee2e2;
+  --color-inverse-primary: #991b1b;
+
+  --color-secondary: #dc2626;
+  --color-secondary-container: #991b1b;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #fecaca;
+
+  --color-gold: #ef4444;
+  --color-gold-bright: #ff6666;
+  --color-gold-dim: #991b1b;
+
+  --color-tertiary: #b91c1c;
+  --color-tertiary-container: #450a0a;
+
+  --color-error: #ef4444;
+  --color-error-container: #7f1d1d;
+  --color-on-error-container: #fee2e2;
+  --color-on-error: #ffffff;
+
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-headline: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  --font-code: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+/* Custom Tactical Cyber Brutalism & Terminal styling */
+@layer utilities {
+  .font-display-lg {
+    font-family: var(--font-display);
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+  }
+  .font-headline-lg {
+    font-family: var(--font-headline);
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+  }
+  .font-headline-sm {
+    font-family: var(--font-headline);
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    font-weight: 600;
+  }
+  .font-body-lg {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .font-body-md {
+    font-family: var(--font-body);
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .font-body-sm {
+    font-family: var(--font-body);
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .font-code-md {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+  .font-label-caps {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+  }
+  .font-label-status {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.12em;
+    font-weight: 700;
+  }
+}
+
+/* Normalized, perfectly contained icon rules */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  flex-shrink: 0;
+  user-select: none;
+  text-shadow: none;
+  filter: none;
+  transition: color 0.15s ease, opacity 0.15s ease;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* SVG icons (Lucide / custom SVG) clean normalization */
+svg.lucide,
+.crystal-icon-svg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  max-height: 100%;
+  transition: color 0.15s ease, opacity 0.15s ease;
+}
+
+/* Light theme icon normalization */
+.theme-light .material-symbols-outlined,
+.theme-light svg.lucide,
+.theme-light .crystal-icon-svg {
+  text-shadow: none;
+  filter: none;
+}
+
+/* =========================================================================
+   CRYSTAL FINISH HOUSINGS & GEMSTONE FACETS
+   ========================================================================= */
+
+/* Crystalline beveled glass container */
+.crystal-facet {
+  position: relative;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.04) 40%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow:
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.55),
+    inset 0 -1px 1px 0 rgba(0, 0, 0, 0.4),
+    0 2px 6px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.crystal-facet::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 42%,
+    rgba(255, 255, 255, 0.35) 50%,
+    transparent 58%
+  );
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+  pointer-events: none;
+}
+
+.crystal-facet:hover::after {
+  transform: translateX(100%);
+}
+
+.crystal-facet:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow:
+    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -1px 1px 0 rgba(0, 0, 0, 0.5),
+    0 4px 14px rgba(0, 0, 0, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Active crystal facet */
+.crystal-facet-active {
+  position: relative;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 84, 81, 0.35) 0%,
+    rgba(147, 0, 10, 0.45) 50%,
+    rgba(32, 31, 34, 0.6) 100%
+  );
+  border: 1px solid #ff5451;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow:
+    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -1px 1px 0 rgba(0, 0, 0, 0.5),
+    0 0 14px rgba(255, 84, 81, 0.55),
+    0 2px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.crystal-facet-active::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 42%,
+    rgba(255, 255, 255, 0.5) 50%,
+    transparent 58%
+  );
+  transform: translateX(-100%);
+  animation: crystal-glint-sweep 4s infinite ease-in-out;
+  pointer-events: none;
+}
+
+@keyframes crystal-glint-sweep {
+  0% { transform: translateX(-100%); }
+  25%, 100% { transform: translateX(100%); }
+}
+
+/* Gemstone Color Variations - Black & Tactical Red Focus */
+/* Tactical Red / Crimson Crystal */
+.crystal-gem-ruby,
+.crystal-gem-gold {
+  background: linear-gradient(
+    135deg,
+    rgba(239, 68, 68, 0.25) 0%,
+    rgba(153, 27, 27, 0.2) 45%,
+    rgba(0, 0, 0, 0.95) 100%
+  );
+  border: 1px solid rgba(239, 68, 68, 0.6);
+  box-shadow:
+    inset 0 1px 1px 0 rgba(255, 100, 100, 0.3),
+    inset 0 -1px 1px 0 rgba(0, 0, 0, 0.9),
+    0 0 8px rgba(220, 38, 38, 0.2);
+}
+
+/* Deep Obsidian / Dark Crystal */
+.crystal-gem-amber,
+.crystal-gem-emerald,
+.crystal-gem-sapphire,
+.crystal-gem-diamond {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 10, 12, 0.6) 0%,
+    rgba(15, 4, 6, 0.8) 50%,
+    rgba(0, 0, 0, 0.98) 100%
+  );
+  border: 1px solid rgba(127, 29, 29, 0.5);
+  box-shadow:
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 1px 0 rgba(0, 0, 0, 0.9),
+    0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Dedicated crystal badge container for pill icons */
+.crystal-icon-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(127, 29, 29, 0.6);
+  border-radius: 0px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #ef4444;
+}
+
+.theme-light .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(185, 28, 28, 0.3);
+}
+
+.theme-light .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(185, 28, 28, 0.6);
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.95); }
+}
+
+.pulse-beacon {
+  animation: pulse-subtle 1.8s infinite ease-in-out;
+}
+
+@keyframes radar-sweep {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.radar-sweep-anim {
+  animation: radar-sweep 4s linear infinite;
+}
+
+/* Dynamic Pure Black & Tactical Red Animations */
+@keyframes dynamic-red-black-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.dynamic-red-black-bg {
+  background: linear-gradient(
+    -45deg,
+    #000000,
+    #0a0102,
+    #000000,
+    #130204,
+    #040001,
+    #000000
+  );
+  background-size: 400% 400%;
+  animation: dynamic-red-black-flow 20s ease infinite;
+}
+
+.theme-light .dynamic-red-black-bg {
+  background: linear-gradient(
+    -45deg,
+    #000000,
+    #0d0204,
+    #000000,
+    #160306,
+    #080002,
+    #000000
+  );
+  background-size: 400% 400%;
+  animation: dynamic-red-black-flow 20s ease infinite;
+}
+
+/* Laser scanline sweeping across the header */
+@keyframes laser-sweep {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.laser-scanner-line {
+  animation: laser-sweep 4.5s ease-in-out infinite;
+}
+
+@keyframes laser-sweep-subtle {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.7;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.laser-scanner-line-gold {
+  animation: laser-sweep-subtle 6s ease-in-out infinite;
+}
+
+/* Cyber Matrix Grid Overlay */
+.cyber-grid-overlay {
+  background-image: radial-gradient(rgba(239, 68, 68, 0.12) 1px, transparent 0);
+  background-size: 16px 16px;
+}
+
+.cyber-grid-gold-overlay {
+  background-image: radial-gradient(rgba(185, 28, 28, 0.08) 1px, transparent 0);
+  background-size: 18px 18px;
+}
+
+/* Highlighted top buttons glow effects */
+@keyframes red-glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(239, 68, 68, 0.35), inset 0 0 6px rgba(220, 38, 38, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(239, 68, 68, 0.65), inset 0 0 10px rgba(220, 38, 38, 0.35);
+  }
+}
+
+.glow-btn-critical,
+.glow-btn-gold,
+.glow-btn-accent {
+  animation: red-glow-pulse 2.4s infinite ease-in-out;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------
+ * CDN asset degradation. src/assetFallback.ts adds these classes to <html> only
+ * when the external Google Fonts / Material Symbols assets fail to load.
+ * ------------------------------------------------------------------------- */
+/* Tailwind arbitrary font classes (font-['JetBrains_Mono'] etc.) carry no
+   fallback stack, so give them one when the web font is unavailable. */
+html.webfonts-failed [class*="JetBrains_Mono"] {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace !important;
+}
+html.webfonts-failed [class*="Space_Grotesk"] {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif !important;
+}
+html.webfonts-failed [class*="Geist"] {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif !important;
+}
+/* Without the icon font, ligature names ("account_tree") would render as raw
+   text. Hide the text and show a small neutral marker so layout holds. */
+html.icons-failed .material-symbols-outlined {
+  font-size: 0 !important;
+  line-height: 0 !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.9rem;
+  height: 0.9rem;
+  overflow: hidden;
+  vertical-align: middle;
+}
+html.icons-failed .material-symbols-outlined::before {
+  content: "";
+  width: 0.32rem;
+  height: 0.32rem;
+  border-radius: 9999px;
+  background: currentColor;
+  opacity: 0.65;
+}
